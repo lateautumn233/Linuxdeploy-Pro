@@ -185,6 +185,13 @@
 
     <string name="init_preferences">初始化</string>
 
+  <!-- NET_TRIGGER -->
+    <string name="title_net_trigger_preference">网络触发器</string>
+    <string name="dialog_title_net_trigger_preference">触发脚本的路径</string>
+    <!-- POWER_TRIGGER -->
+    <string name="title_power_trigger_preference">电源触发器</string>
+    <string name="dialog_title_power_trigger_preference">触发脚本的路径</string>
+
     <!-- INIT -->
     <string name="title_is_init_preference">启用</string>
     <string name="summary_is_init_preference">允许使用初始化系统</string>
