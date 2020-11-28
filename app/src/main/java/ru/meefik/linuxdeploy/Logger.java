@@ -19,7 +19,7 @@ import ru.meefik.linuxdeploy.activity.MainActivity;
 
 public class Logger {
 
-    private static volatile List<String> protocol = new ArrayList<>();
+    private static final List<String> protocol = new ArrayList<>();
     private static char lastChar = '\n';
     private static String lastLine = "";
 

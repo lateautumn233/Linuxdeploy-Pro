@@ -1,5 +1,6 @@
 package ru.meefik.linuxdeploy;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -62,22 +63,23 @@ public class EnvUtils {
         AssetManager assetManager = c.getAssets();
         try {
             String[] assets = assetManager.list(rootAsset + path);
+            assert assets != null;
             if (assets.length == 0) {
-                if (!extractFile(c, target, rootAsset, path)) return false;
+                if (!extractFile(c, target, rootAsset, path)) return true;
             } else {
                 String fullPath = target + path;
                 File dir = new File(fullPath);
                 if (!dir.exists()) dir.mkdir();
                 for (String asset : assets) {
-                    if (!extractDir(c, target, rootAsset, path + "/" + asset))
-                        return false;
+                    if (extractDir(c, target, rootAsset, path + "/" + asset))
+                        return true;
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
 
     /**
@@ -103,6 +105,7 @@ public class EnvUtils {
      *
      * @param path path to directory
      */
+    @SuppressLint("SetWorldReadable")
     private static void setPermissions(File path, Boolean executable) {
         if (path == null) return;
         if (path.exists()) {
@@ -242,30 +245,30 @@ public class EnvUtils {
         execServices(c, new String[]{"telnetd", "httpd"}, "stop");
 
         // extract env assets
-        if (!extractDir(c, PrefStore.getEnvDir(c), "env", "")) return false;
+        if (extractDir(c, PrefStore.getEnvDir(c), "env", "")) return false;
 
         // extract bin assets
-        if (!extractDir(c, PrefStore.getBinDir(c), "bin/all", "")) return false;
+        if (extractDir(c, PrefStore.getBinDir(c), "bin/all", "")) return false;
         String arch = PrefStore.getArch();
         switch (arch) {
             case "arm":
-                if (!extractDir(c, PrefStore.getBinDir(c), "bin/arm", "")) return false;
+                if (extractDir(c, PrefStore.getBinDir(c), "bin/arm", "")) return false;
                 break;
             case "arm_64":
-                if (!extractDir(c, PrefStore.getBinDir(c), "bin/arm", "")) return false;
-                if (!extractDir(c, PrefStore.getBinDir(c), "bin/arm_64", "")) return false;
+                if (extractDir(c, PrefStore.getBinDir(c), "bin/arm", "")) return false;
+                if (extractDir(c, PrefStore.getBinDir(c), "bin/arm_64", "")) return false;
                 break;
             case "x86":
-                if (!extractDir(c, PrefStore.getBinDir(c), "bin/x86", "")) return false;
+                if (extractDir(c, PrefStore.getBinDir(c), "bin/x86", "")) return false;
                 break;
             case "x86_64":
-                if (!extractDir(c, PrefStore.getBinDir(c), "bin/x86", "")) return false;
-                if (!extractDir(c, PrefStore.getBinDir(c), "bin/x86_64", "")) return false;
+                if (extractDir(c, PrefStore.getBinDir(c), "bin/x86", "")) return false;
+                if (extractDir(c, PrefStore.getBinDir(c), "bin/x86_64", "")) return false;
                 break;
         }
 
         // extract web assets
-        if (!extractDir(c, PrefStore.getWebDir(c), "web", "")) return false;
+        if (extractDir(c, PrefStore.getWebDir(c), "web", "")) return false;
 
         // make linuxdeploy script
         if (!makeMainScript(c)) return false;

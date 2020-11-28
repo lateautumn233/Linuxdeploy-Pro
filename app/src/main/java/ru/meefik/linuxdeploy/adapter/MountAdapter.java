@@ -1,5 +1,6 @@
 package ru.meefik.linuxdeploy.adapter;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -107,6 +108,7 @@ public class MountAdapter extends RecyclerView.Adapter<MountAdapter.ViewHolder> 
             delete = itemView.findViewById(R.id.delete_mount);
         }
 
+        @SuppressLint("SetTextI18n")
         void setMount(Mount mount) {
             if (mount.getTarget().isEmpty()) {
                 mountPoint.setText(mount.getSource());

@@ -1,6 +1,7 @@
 package ru.meefik.linuxdeploy.activity;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
@@ -50,7 +51,9 @@ public class MainActivity extends AppCompatActivity implements
         NavigationView.OnNavigationItemSelectedListener {
 
     private static final int REQUEST_WRITE_STORAGE = 112;
+    @SuppressLint("StaticFieldLeak")
     private static TextView output;
+    @SuppressLint("StaticFieldLeak")
     private static ScrollView scroll;
     private static WifiLock wifiLock;
     private static PowerManager.WakeLock wakeLock;

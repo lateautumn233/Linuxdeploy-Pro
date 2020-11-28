@@ -1,5 +1,6 @@
 package ru.meefik.linuxdeploy.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.GestureDetector;
@@ -171,6 +172,7 @@ public class ProfilesActivity extends AppCompatActivity implements OnTouchListen
         }
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -249,6 +251,7 @@ public class ProfilesActivity extends AppCompatActivity implements OnTouchListen
         listView.setItemChecked(getPosition(profile), true);
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         gd.onTouchEvent(event);

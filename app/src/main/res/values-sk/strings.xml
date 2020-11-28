@@ -163,7 +163,7 @@
     <string name="menu_export">Exportovať</string>
     <string name="nav_profiles">Profily</string>
     <string name="summary_is_gui_preference">Umožní spustenie grafického prostredia</string>
-    <string name="summary_is_http_preference"></string>
+    <string name="summary_is_http_preference" />
     <string name="summary_is_init_preference">Povolí vykonanie vlastných skriptov</string>
     <string name="dialog_title_path_preference">PATH</string>
     <string name="repository_purchase_button">Kúpiť</string>
