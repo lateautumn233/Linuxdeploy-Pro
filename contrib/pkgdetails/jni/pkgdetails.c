@@ -1,8 +1,4 @@
-/*
- * Command line utility for debootstrap
- * Source get from: https://dev.openwrt.org/browser/packages/admin/debootstrap/files/pkgdetails.c
- */
-
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
