@@ -1,3 +1,0 @@
-[submodule "app/src/main/assets/env"]
-	path = app/src/main/assets/env
-	url = https://github.com/lateautumn233/linuxdeploy-cli
