@@ -1,2 +1,2 @@
 #!/data/data/ru.meefik.linuxdeploy/files/bin/sh
-"/data/data/ru.meefik.linuxdeploy/files/bin/wget" --ca-directory=/data/data/ru.meefik.linuxdeploy/files/tls "$@"
+"/data/data/ru.meefik.linuxdeploy/files/bin/wgettls" --ca-directory=/data/data/ru.meefik.linuxdeploy/files/tls "$@"
