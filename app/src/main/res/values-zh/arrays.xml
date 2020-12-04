@@ -12,6 +12,7 @@
         <item>自定义</item>
     </string-array>
     <string-array name="desktop_entries">
+        <item>Deepin</item>
         <item>XTerm</item>
         <item>LXDE</item>
         <item>Xfce</item>

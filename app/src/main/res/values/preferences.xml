@@ -88,76 +88,76 @@
     <!-- Debian -->
     <string name="debian_suite" translatable="false">buster</string>
     <!-- arm -->
-    <string name="arm_debian_source_path" >http://ftp.debian.org/debian/</string>
+    <string name="arm_debian_source_path">https://ftp.debian.org/debian/</string>
     <string name="arm_debian_arch" translatable="false">armhf</string>
     <!-- arm_64 -->
-    <string name="arm_64_debian_source_path" >http://ftp.debian.org/debian/</string>
+    <string name="arm_64_debian_source_path">https://ftp.debian.org/debian/</string>
     <string name="arm_64_debian_arch" translatable="false">arm64</string>
     <!-- x86 -->
-    <string name="x86_debian_source_path" >http://ftp.debian.org/debian/</string>
+    <string name="x86_debian_source_path">https://ftp.debian.org/debian/</string>
     <string name="x86_debian_arch" translatable="false">i386</string>
     <!-- x86_64 -->
-    <string name="x86_64_debian_source_path" >http://ftp.debian.org/debian/</string>
+    <string name="x86_64_debian_source_path">https://ftp.debian.org/debian/</string>
     <string name="x86_64_debian_arch" >amd64</string>
 
     <!-- Ubuntu -->
     <string name="ubuntu_suite" translatable="false">groovy</string>
     <!-- arm -->
-    <string name="arm_ubuntu_source_path" >http://ports.ubuntu.com/</string>
+    <string name="arm_ubuntu_source_path">https://ports.ubuntu.com/</string>
     <string name="arm_ubuntu_arch" translatable="false">armhf</string>
     <!-- arm_64 -->
-    <string name="arm_64_ubuntu_source_path" >http://ports.ubuntu.com/</string>
+    <string name="arm_64_ubuntu_source_path">https://ports.ubuntu.com/</string>
     <string name="arm_64_ubuntu_arch" translatable="false">arm64</string>
     <!-- x86 -->
-    <string name="x86_ubuntu_source_path" translatable="false">http://archive.ubuntu.com/ubuntu/</string>
+    <string name="x86_ubuntu_source_path" translatable="false">https://archive.ubuntu.com/ubuntu/</string>
     <string name="x86_ubuntu_arch" translatable="false">i386</string>
     <!-- x86_64 -->
-    <string name="x86_64_ubuntu_source_path" translatable="false">http://archive.ubuntu.com/ubuntu/</string>
+    <string name="x86_64_ubuntu_source_path" translatable="false">https://archive.ubuntu.com/ubuntu/</string>
     <string name="x86_64_ubuntu_arch" translatable="false">amd64</string>
 
     <!-- Kali Linux -->
     <string name="kali_suite" translatable="false">kali-rolling</string>
     <!-- arm -->
-    <string name="arm_kali_source_path" >http://http.kali.org/kali/</string>
+    <string name="arm_kali_source_path">https://http.kali.org/kali/</string>
     <string name="arm_kali_arch" translatable="false">armhf</string>
     <!-- arm_64 -->
-    <string name="arm_64_kali_source_path" >http://http.kali.org/kali/</string>
+    <string name="arm_64_kali_source_path">https://http.kali.org/kali/</string>
     <string name="arm_64_kali_arch" translatable="false">arm64</string>
     <!-- x86 -->
-    <string name="x86_kali_source_path" >http://http.kali.org/kali/</string>
+    <string name="x86_kali_source_path">https://http.kali.org/kali/</string>
     <string name="x86_kali_arch" translatable="false">i386</string>
     <!-- x86_64 -->
-    <string name="x86_64_kali_source_path" >http:///http.kali.org/kali/</string>
+    <string name="x86_64_kali_source_path">https:///http.kali.org/kali/</string>
     <string name="x86_64_kali_arch" translatable="false">amd64</string>
 
     <!-- Fedora -->
     <string name="fedora_suite" >33</string>
     <!-- arm -->
-    <string name="arm_fedora_source_path" translatable="false">http://dl.fedoraproject.org/pub/</string>
+    <string name="arm_fedora_source_path" translatable="false">https://dl.fedoraproject.org/pub/</string>
     <string name="arm_fedora_arch" translatable="false">armhfp</string>
     <!-- arm_64 -->
-    <string name="arm_64_fedora_source_path" translatable="false">http://dl.fedoraproject.org/pub/</string>
+    <string name="arm_64_fedora_source_path" translatable="false">https://dl.fedoraproject.org/pub/</string>
     <string name="arm_64_fedora_arch" translatable="false">aarch64</string>
     <!-- x86 -->
-    <string name="x86_fedora_source_path" translatable="false">http://dl.fedoraproject.org/pub/</string>
+    <string name="x86_fedora_source_path" translatable="false">https://dl.fedoraproject.org/pub/</string>
     <string name="x86_fedora_arch" translatable="false">i386</string>
     <!-- x86_64 -->
-    <string name="x86_64_fedora_source_path" translatable="false">http://dl.fedoraproject.org/pub/</string>
+    <string name="x86_64_fedora_source_path" translatable="false">https://dl.fedoraproject.org/pub/</string>
     <string name="x86_64_fedora_arch" translatable="false">x86_64</string>
 
     <!-- CentOS -->
     <string name="centos_suite" translatable="false">7</string>
     <!-- arm -->
-    <string name="arm_centos_source_path" >http://mirror.centos.org/altarch/</string>
+    <string name="arm_centos_source_path">https://mirror.centos.org/altarch/</string>
     <string name="arm_centos_arch" translatable="false">armhfp</string>
     <!-- arm_64 -->
-    <string name="arm_64_centos_source_path" >http://mirror.centos.org/altarch/</string>
+    <string name="arm_64_centos_source_path">https://mirror.centos.org/altarch/</string>
     <string name="arm_64_centos_arch" translatable="false">aarch64</string>
     <!-- x86 -->
-    <string name="x86_centos_source_path" >http://mirror.centos.org/altarch/</string>
+    <string name="x86_centos_source_path">https://mirror.centos.org/altarch/</string>
     <string name="x86_centos_arch" translatable="false">i386</string>
     <!-- x86_64 -->
-    <string name="x86_64_centos_source_path" >http://mirror.centos.org/altarch/</string>
+    <string name="x86_64_centos_source_path">https://mirror.centos.org/altarch/</string>
     <string name="x86_64_centos_arch" translatable="false">x86_64</string>
 
     <!-- Arch Linux -->
@@ -178,31 +178,31 @@
     <!-- Slackware -->
     <string name="slackware_suite" translatable="false">14.2</string>
     <!-- arm -->
-    <string name="arm_slackware_source_path" >http://ftp.arm.slackware.com/slackwarearm/</string>
+    <string name="arm_slackware_source_path">https://ftp.arm.slackware.com/slackwarearm/</string>
     <string name="arm_slackware_arch" translatable="false">arm</string>
     <!-- arm_64 -->
-    <string name="arm_64_slackware_source_path" >http://ftp.arm.slackware.com/slackwarearm/</string>
+    <string name="arm_64_slackware_source_path">https://ftp.arm.slackware.com/slackwarearm/</string>
     <string name="arm_64_slackware_arch" translatable="false">arm</string>
     <!-- x86 -->
-    <string name="x86_slackware_source_path" >http://mirrors.slackware.com/slackware/</string>
+    <string name="x86_slackware_source_path">https://mirrors.slackware.com/slackware/</string>
     <string name="x86_slackware_arch" translatable="false">x86</string>
     <!-- x86_64 -->
-    <string name="x86_64_slackware_source_path" >http://mirrors.slackware.com/slackware/</string>
+    <string name="x86_64_slackware_source_path">https://mirrors.slackware.com/slackware/</string>
     <string name="x86_64_slackware_arch" translatable="false">x86_64</string>
 
     <!-- Alpine Linux -->
     <string name="alpine_suite" translatable="false">latest-stable</string>
     <!-- arm -->
-    <string name="arm_alpine_source_path" >http://dl-cdn.alpinelinux.org/alpine/</string>
+    <string name="arm_alpine_source_path">https://dl-cdn.alpinelinux.org/alpine/</string>
     <string name="arm_alpine_arch" translatable="false">armhf</string>
     <!-- arm_64 -->
-    <string name="arm_64_alpine_source_path" >http://dl-cdn.alpinelinux.org/alpine/</string>
+    <string name="arm_64_alpine_source_path">https://dl-cdn.alpinelinux.org/alpine/</string>
     <string name="arm_64_alpine_arch" translatable="false">aarch64</string>
     <!-- x86 -->
-    <string name="x86_alpine_source_path" >http://dl-cdn.alpinelinux.org/alpine/</string>
+    <string name="x86_alpine_source_path">https://dl-cdn.alpinelinux.org/alpine/</string>
     <string name="x86_alpine_arch" >x86</string>
     <!-- x86_64 -->
-    <string name="x86_64_alpine_source_path" >http://dl-cdn.alpinelinux.org/alpine/</string>
+    <string name="x86_64_alpine_source_path">https://dl-cdn.alpinelinux.org/alpine/</string>
     <string name="x86_64_alpine_arch" translatable="false">x86_64</string>
 
     <!-- Docker -->

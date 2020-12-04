@@ -215,6 +215,7 @@
         <item>24</item>
     </string-array>
     <string-array name="desktop_values" translatable="false">
+        <item>deepin</item>
         <item>xterm</item>
         <item>lxde</item>
         <item>xfce</item>
@@ -222,6 +223,7 @@
         <item>other</item>
     </string-array>
     <string-array name="desktop_entries">
+        <item>Deepin</item>
         <item>XTerm</item>
         <item>LXDE</item>
         <item>Xfce</item>
@@ -332,7 +334,9 @@
     <!-- Fedora -->
 
     <string-array name="fedora_suite_values" translatable="false">
-        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
     </string-array>
     <string-array name="fedora_arch_values" translatable="false">
         <item>armhfp</item> <!-- f19 and later -->
