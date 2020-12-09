@@ -211,7 +211,7 @@ chroot_exec()
                 unshare -R "${CHROOT_DIR}" /bin/su - ${username}
             fi
         else
-            PATH="${path}" chroot "${CHROOT_DIR}" $*
+            PATH="${path}" unshare -R "${CHROOT_DIR}" $*
         fi
     ;;
     proot)
