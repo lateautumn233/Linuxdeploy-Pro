@@ -309,6 +309,7 @@
         <item>eoan</item>
         <item>focal</item>
         <item>groovy</item>
+        <item>hirsute</item>        
     </string-array>
     <string-array name="ubuntu_arch_values" translatable="false">
         <item>armel</item> <!-- precise only -->

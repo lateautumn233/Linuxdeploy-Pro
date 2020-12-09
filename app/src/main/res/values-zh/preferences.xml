@@ -101,7 +101,7 @@
     <string name="x86_64_debian_arch" >amd64</string>
 
     <!-- Ubuntu -->
-    <string name="ubuntu_suite" >groovy</string>
+    <string name="ubuntu_suite" >hirsute</string>
     <!-- arm -->
     <string name="arm_ubuntu_source_path">https://mirrors.bfsu.edu.cn/ubuntu-ports/</string>
     <string name="arm_ubuntu_arch" >armhf</string>
