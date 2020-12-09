@@ -2,7 +2,7 @@
 ################################################################################
 #
 # Linux Deploy CLI
-# (C) 2012-2019 Anton Skshidlevsky <meefik@gmail.com>, GPLv3
+# (C) 2012-2020 Anton Skshidlevsky <meefik@gmail.com>, GPLv3
 #
 ################################################################################
 
@@ -789,7 +789,7 @@ rootfs_import()
         if [ -e "${rootfs_file}" ]; then
             tar axf "${rootfs_file}" -C "${CHROOT_DIR}"
         elif [ -z "${rootfs_file##http*}" ]; then
-            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" -zax
+            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" x
         else
             msg "fail"; return 1
         fi
@@ -800,7 +800,7 @@ rootfs_import()
         if [ -e "${rootfs_file}" ]; then
             tar axf "${rootfs_file}" -C "${CHROOT_DIR}"
         elif [ -z "${rootfs_file##http*}" ]; then
-            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" -zax
+            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" zx
         else
             msg "fail"; return 1
         fi
@@ -811,7 +811,7 @@ rootfs_import()
         if [ -e "${rootfs_file}" ]; then
             tar axf "${rootfs_file}" -C "${CHROOT_DIR}"
         elif [ -z "${rootfs_file##http*}" ]; then
-            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" -zax
+            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" jx
         else
             msg "fail"; return 1
         fi
@@ -822,7 +822,7 @@ rootfs_import()
         if [ -e "${rootfs_file}" ]; then
             tar axf "${rootfs_file}" -C "${CHROOT_DIR}"
         elif [ -z "${rootfs_file##http*}" ]; then
-            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" -zax
+            wget -q -O - "${rootfs_file}" | tar -C "${CHROOT_DIR}" Jx
         else
             msg "fail"; return 1
         fi
@@ -833,7 +833,7 @@ rootfs_import()
         if [ -e "${rootfs_file}" ]; then
             tar axf "${rootfs_file}" -C "${CHROOT_DIR}"
         elif [ -z "${rootfs_file##http*}" ]; then
-            wget -q -O - "${rootfs_file}" | tar-C "${CHROOT_DIR}" -zax
+            wget -q -O - "${rootfs_file}" | tar-C "${CHROOT_DIR}" zx
         else
             msg "fail"; return 1
         fi
