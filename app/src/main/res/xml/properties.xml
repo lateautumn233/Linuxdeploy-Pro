@@ -70,6 +70,13 @@
             android:title="@string/title_fs_type_preference" />
 
         <EditTextPreference
+            android:defaultValue="@string/host_name"
+            android:dialogTitle="@string/dialog_title_host_name_preference"
+            android:key="host_name"
+            android:summary="@string/host_name"
+            android:title="@string/title_host_name_preference" />
+
+        <EditTextPreference
             android:defaultValue="@string/user_name"
             android:dialogTitle="@string/dialog_title_user_name_preference"
             android:key="user_name"

@@ -44,6 +44,7 @@
     <string name="rootfs_archive" >${EXTERNAL_STORAGE}/linux-rootfs.tar.zst</string>
     <string name="disk_size" >0</string>
     <string name="fs_type" >ext4</string>
+    <string name="host_name" >localhost</string>
     <string name="user_name" >android</string>
     <string name="user_password" />
     <string name="privileged_users" >android:aid_inet android:aid_sdcard_rw android:aid_graphics</string>

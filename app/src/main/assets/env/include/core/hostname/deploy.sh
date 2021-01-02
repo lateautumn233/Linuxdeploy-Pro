@@ -12,7 +12,7 @@ do_configure()
 do_start()
 {
     msg -n ":: Starting ${COMPONENT} ... "
-    chroot_exec -u ${USER_NAME} hostname ${cat ${CHROOT_DIR}/etc/hostname}
+    chroot_exec -u ${USER_NAME} hostname $(cat ${CHROOT_DIR}/etc/hostname)
     is_ok "fail" "done"
     return 0
 }
