@@ -166,6 +166,9 @@
     <!-- FS_TYPE -->
     <string name="title_fs_type_preference">文件系统</string>
     <string name="dialog_title_fs_type_preference">选择文件系统</string>
+    <!-- HOST_NAME -->
+    <string name="title_host_name_preference">主机名</string>
+    <string name="dialog_title_host_name_preference">输入主机名</string>
     <!-- USER_NAME -->
     <string name="title_user_name_preference">用户名</string>
     <string name="dialog_title_user_name_preference">输入用户名</string>
