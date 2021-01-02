@@ -5,6 +5,22 @@
 do_configure()
 {
     msg ":: Configuring ${COMPONENT} ... "
-    echo 'localhost' > "${CHROOT_DIR}/etc/hostname"
+    echo ${HOST_NAME} > "${CHROOT_DIR}/etc/hostname"
+    return 0
+}
+
+do_start()
+{
+    msg -n ":: Starting ${COMPONENT} ... "
+    chroot_exec -u ${USER_NAME} hostname ${HOST_NAME})
+    is_ok "fail" "done"
+    return 0
+}
+
+do_stop()
+{
+    msg -n ":: Stopping ${COMPONENT} ... "
+    chroot_exec -u ${USER_NAME} hostname localhost
+    is_ok "fail" "done"
     return 0
 }
