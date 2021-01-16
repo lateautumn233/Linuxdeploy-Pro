@@ -12,7 +12,7 @@ do_configure()
 do_start()
 {
     msg -n ":: Starting ${COMPONENT} ... "
-    chroot_exec -u ${USER_NAME} hostname ${HOST_NAME}
+    hostname ${HOST_NAME}
     is_ok "fail" "done"
     return 0
 }
@@ -20,7 +20,7 @@ do_start()
 do_stop()
 {
     msg -n ":: Stopping ${COMPONENT} ... "
-    chroot_exec -u ${USER_NAME} hostname localhost
+    hostname localhost
     is_ok "fail" "done"
     return 0
 }
