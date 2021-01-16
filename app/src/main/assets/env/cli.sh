@@ -214,26 +214,15 @@ chroot_exec()
             PATH="${path}" chroot "${CHROOT_DIR}" $*
         fi
     ;;
-    proot)
-        if [ -z "${PROOT_TMP_DIR}" ]; then
-            export PROOT_TMP_DIR="${TEMP_DIR}"
-        fi
-        local mounts="-b /proc -b /dev -b /sys"
-        if [ -n "${MOUNTS}" ]; then
-            mounts="${mounts} -b ${MOUNTS// / -b }"
-        fi
-        local emulator
-        if [ -n "${EMULATOR}" ]; then
-            emulator="-q ${EMULATOR}"
-        fi
+    unshare)
         if [ -n "${username}" ]; then
             if [ $# -gt 0 ]; then
-                proot -r "${CHROOT_DIR}" -w / ${mounts} ${emulator} -0 -l -e /bin/su - ${username} -c "$*"
+                unshare -R "${CHROOT_DIR}" /bin/su - ${username} -c "$*"
             else
-                proot -r "${CHROOT_DIR}" -w / ${mounts} ${emulator} -0 -l -e /bin/su - ${username}
+                unshare -R "${CHROOT_DIR}" /bin/su - ${username}
             fi
         else
-            PATH="${path}" proot -r "${CHROOT_DIR}" -w / ${mounts} ${emulator} -0 -l -e $*
+            PATH="${path}" unshare -R "${CHROOT_DIR}" $*
         fi
     ;;
     esac
@@ -518,6 +507,8 @@ container_mounted()
 {
     if [ "${METHOD}" = "chroot" ]; then
         is_mounted "${CHROOT_DIR}"
+    elif [ "${METHOD}" = "unshare" ]; then
+        is_mounted "${CHROOT_DIR}"
     else
         return 0
     fi
@@ -659,7 +650,13 @@ mount_part()
 
 container_mount()
 {
-    [ "${METHOD}" = "chroot" ] || return 0
+    if [ "${METHOD}" == "chroot" ];then
+        true
+    elif [ "${METHOD}" == "unshare" ];then
+        true
+    else 
+        return 0
+    fi
 
     if [ $# -eq 0 ]; then
         container_mount root proc sys dev shm pts fd tty tun binfmt_misc

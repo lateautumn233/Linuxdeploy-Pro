@@ -165,6 +165,10 @@
 
     <!-- BOOTSTRAP -->
     <string name="bootstrap_preferences">BOOTSTRAP</string>
+    <!-- METHOD -->
+    <string name="title_method_preference">Containerization method</string>
+    <string name="dialog_title_method_preference">Containerization method</string>
+
     <!-- DISTRIB -->
     <string name="title_distrib_preference">Distribution</string>
     <string name="dialog_title_distrib_preference">Distribution</string>
