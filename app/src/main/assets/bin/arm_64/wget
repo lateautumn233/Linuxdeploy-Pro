@@ -1,2 +1,9 @@
 #!/data/data/ru.meefik.linuxdeploy/files/bin/sh
-"/data/data/ru.meefik.linuxdeploy/files/bin/wgettls" --ca-directory=/data/data/ru.meefik.linuxdeploy/files/tls "$@"
+
+CONFIGFILE=/data/data/ru.meefik.linuxdeploy/shared_prefs/properties_conf.xml
+MIRROR=`cat ${CONFIGFILE} | grep 'mirrors.bfsu.edu.cn' | awk -F ' ' '{print $1}'`
+if [ ${MIRROR} ];then
+    wget2 --no-check-certificate "$@"
+else
+    wget2 --ca-directory=/data/data/ru.meefik.linuxdeploy/files/tls "$@"
+fi
