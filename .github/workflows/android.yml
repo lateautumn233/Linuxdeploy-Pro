@@ -42,4 +42,4 @@ jobs:
 
         name: app-release.apk
 
-        path: app/build/outputs/apk/debug/app-release.apk
+        path: app/build/outputs/apk/release/app-release.apk
