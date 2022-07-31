@@ -24,3 +24,22 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Upload built artifacts
+
+      uses: actions/upload-artifact@v3
+
+      with:
+
+        name: app-debug.apk
+
+        path: app/build/outputs/apk/debug/app-debug.apk
+
+    - name: Upload built artifacts
+
+      uses: actions/upload-artifact@v3
+
+      with:
+
+        name: app-release.apk
+
+        path: app/build/outputs/apk/debug/app-release.apk
