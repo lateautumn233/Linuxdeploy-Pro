@@ -18,18 +18,19 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew build
-    - name: Upload built artifacts
+      uses: burrunan/gradle-cache-action@v1
+      with:
+        job-id: jdk11
+        arguments: --build-cache build
 
+    - name: Upload app-debug.apk artifacts
       uses: actions/upload-artifact@v3
       with:
         name: app-debug.apk
         path: app/build/outputs/apk/debug/app-debug.apk
 
-    - name: Upload built artifacts
+    - name: Upload app-release.apk artifacts
       uses: actions/upload-artifact@v3
       with:
         name: app-release.apk
