@@ -6,6 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.0.0] - 2023-01-21
+### Added
+- Added Support Ubuntu20.04-23.04
+- Added Support Fedora37
+- Added zstd
+- Added gnu wget2
+- Added gnu cpio
+
+### Changed
+- Update busybox to the latest version
+- Supports HTTPS encrypted connections
+- Support automatic compilation of github actions
+
+### Fixed
+- Fixed the arch installation package
+- Fixed retrying downloading debs
+
 ## [2.6.0] - 2020-02-01
 ### Changed
 - Set target version of SDK to 28 for binary execution in Android Q

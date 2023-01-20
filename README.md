@@ -1,5 +1,7 @@
 # Linux Deploy
 
+[![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml)
+
 Copyright (C) 2012-2019  Anton Skshidlevsky, [GPLv3](https://github.com/meefik/linuxdeploy/blob/master/LICENSE)
 
 This application is open source software for quick and easy installation of the operating system (OS) GNU/Linux on your Android device.
