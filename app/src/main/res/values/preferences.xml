@@ -30,6 +30,8 @@
     <string name="logger" translatable="false">false</string>
     <string name="logfile" translatable="false">output.log</string>
     <string name="chroot_dir" translatable="false">/data/local/mnt</string>
+    <string name="method" translatable="false">chroot</string>
+    <string name="method_options" translatable="false"></string>
     <string name="distrib" translatable="false">debian</string>
     <string name="suite" translatable="false">@string/debian_suite</string>
     <string name="arch" translatable="false">@string/arm_debian_arch</string>

@@ -256,6 +256,10 @@
         <item>run-parts</item>
         <item>sysv</item>
     </string-array>
+    <string-array name="method_values" translatable="false">
+        <item>chroot</item>
+        <item>unshare</item>
+    </string-array>
     <string-array name="graphics_values" translatable="false">
         <item>vnc</item>
         <item>x11</item>

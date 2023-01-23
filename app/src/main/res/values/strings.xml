@@ -118,6 +118,12 @@
     <!-- SERVER_URL -->
     <string name="title_server_url_preference">Server URL</string>
     <string name="dialog_title_server_url_preference">Server URL</string>
+    <!-- METHOD -->
+    <string name="title_method_preference">Containerization method</string>
+    <string name="dialog_title_method_preference">Containerization method</string>
+    <!-- METHOD OPTIONS -->
+    <string name="title_method_options_preference">Containerization options</string>
+    <string name="dialog_title_method_options_preference">Containerization options</string>
     <!-- Update ENV -->
     <string name="title_installenv_preference">Update ENV</string>
     <string name="summary_installenv_preference">Update the operating environment</string>
