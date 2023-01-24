@@ -292,6 +292,8 @@
         <item>jessie</item>
         <item>stretch</item>
         <item>buster</item>
+        <item>bullseye</item>
+        <item>bookworm</item>
     </string-array>
     <string-array name="debian_arch_values" translatable="false">
         <item>armel</item>
