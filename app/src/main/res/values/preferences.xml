@@ -178,13 +178,13 @@
     <string name="x86_64_archlinux_arch" translatable="false">x86_64</string>
 
     <!-- Slackware -->
-    <string name="slackware_suite" translatable="false">14.2</string>
+    <string name="slackware_suite" translatable="false">15.0</string>
     <!-- arm -->
     <string name="arm_slackware_source_path" translatable="false">http://ftp.arm.slackware.com/slackwarearm/</string>
     <string name="arm_slackware_arch" translatable="false">arm</string>
     <!-- arm_64 -->
     <string name="arm_64_slackware_source_path" translatable="false">http://ftp.arm.slackware.com/slackwarearm/</string>
-    <string name="arm_64_slackware_arch" translatable="false">arm</string>
+    <string name="arm_64_slackware_arch" translatable="false">arm64</string>
     <!-- x86 -->
     <string name="x86_slackware_source_path" translatable="false">http://mirrors.slackware.com/slackware/</string>
     <string name="x86_slackware_arch" translatable="false">x86</string>

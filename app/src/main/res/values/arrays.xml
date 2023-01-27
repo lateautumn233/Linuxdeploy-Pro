@@ -384,9 +384,11 @@
 
     <string-array name="slackware_suite_values" translatable="false">
         <item>14.2</item>
+        <item>15.0</item>
     </string-array>
     <string-array name="slackware_arch_values" translatable="false">
         <item>arm</item>
+        <item>arm64</item>
         <item>x86</item>
         <item>x86_64</item>
     </string-array>
