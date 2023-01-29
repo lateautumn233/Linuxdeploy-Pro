@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.1.0] - 2023-01-29
+### Added
+- Added rootfs support for importing and exporting zstd compression
+- Added support for the unshare container
+- Added support for the latest debian distribution
+- Added support for the devel ubuntu distribution
+- Added Add support for slackware 15.0
+
+### Changed
+- Update zstd to the latest version
+
+### Fixed
+- Fixed the arch https source
+
 ## [3.0.0] - 2023-01-21
 ### Added
 - Added Support Ubuntu20.04-23.04
