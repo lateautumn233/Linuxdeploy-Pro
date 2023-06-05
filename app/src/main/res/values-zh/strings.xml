@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">版本号： %1$s</string>
     <string name="menu_start">启动</string>
     <string name="menu_stop">停止</string>
@@ -59,7 +59,6 @@
     <string name="repository_change_url_title">仓库源地址</string>
     <string name="repository_default_description">没有说明。</string>
     <string name="write_permissions_disallow">应用无法写入存储，你是否授予了本应用储存权限？</string>
-
     <!--设置-->
     <string name="app_preferences">应用</string>
     <string name="title_screenlock_preference">屏幕常亮</string>
@@ -88,28 +87,22 @@
     <string name="dialog_title_autostart_delay_preference">延迟时长（单位：秒）</string>
     <string name="title_nettrack_preference">联网更新</string>
     <string name="summary_nettrack_preference">跟踪网络的更改，并更新容器</string>
-
     <string name="env_preferences">环境</string>
-
     <!-- ENV_DIR -->
     <string name="title_env_dir_preference">ENV 目录</string>
     <string name="dialog_title_env_dir_preference">ENV 目录</string>
     <!-- PATH -->
     <string name="title_path_preference">PATH 变量</string>
     <string name="dialog_title_path_preference">PATH 变量</string>
-
     <!-- SERVER_URL -->
     <string name="title_server_url_preference">服务器地址</string>
     <string name="dialog_title_server_url_preference">服务器地址</string>
-
     <string name="title_installenv_preference">更新环境</string>
     <string name="summary_installenv_preference">更新操作环境</string>
     <string name="message_installenv_confirm_dialog">是否要更新操作环境？</string>
-
     <string name="title_removeenv_preference">移除环境</string>
     <string name="summary_removeenv_preference">移除操作环境</string>
     <string name="message_removeenv_confirm_dialog">是否要移除操作环境？</string>
-
     <string name="services_preferences">管理</string>
     <!-- TELNET -->
     <string name="title_is_telnet_preference">TELNET</string>
@@ -139,7 +132,6 @@
     <string name="title_configure_dialog">配置</string>
     <string name="message_configure_dialog">启动容器的配置？</string>
     <string name="title_export_dialog">导出</string>
-
     <string name="bootstrap_preferences">引导设置</string>
     <!-- DISTRIB -->
     <string name="title_distrib_preference">发行版 GNU/Linux </string>
@@ -182,9 +174,7 @@
     <!-- LOCALE -->
     <string name="title_locale_preference">本地化</string>
     <string name="dialog_title_locale_preference">选择本地语言</string>
-
     <string name="init_preferences">初始化</string>
-
     <!-- INIT -->
     <string name="title_is_init_preference">启用</string>
     <string name="summary_is_init_preference">允许使用初始化系统</string>
@@ -192,7 +182,6 @@
     <string name="dialog_title_init_preference">初始化系统</string>
     <string name="title_init_properties_preference">初始化设置</string>
     <string name="summary_init_properties_preference">更改初始化系统设置</string>
-
     <!-- INIT_PATH -->
     <string name="title_init_path_preference">初始路径</string>
     <string name="dialog_title_init_path_preference">初始化：文件或目录</string>
@@ -205,30 +194,23 @@
     <!-- INIT_ASYNC -->
     <string name="title_init_async_preference">异步处理</string>
     <string name="summary_init_async_preference">异步运行进程</string>
-
     <string name="mounts_preferences">挂载</string>
-
     <!-- MOUNTS -->
     <string name="title_is_mounts_preference">启用</string>
     <string name="summary_is_mounts_preference">允许挂载 Android 上的资源</string>
     <string name="title_mounts_editor_preference">挂载点列表</string>
     <string name="summary_mounts_editor_preference">编辑挂载点列表</string>
-
     <string name="ssh_preferences">SSH</string>
-
     <string name="title_is_ssh_preference">启用</string>
     <string name="summary_is_ssh_preference">启用 SSH 服务器</string>
-
     <string name="title_ssh_properties_preference">SSH 设置</string>
     <string name="summary_ssh_properties_preference">更改 SSH 服务器的设置</string>
-
     <!-- SSH_PORT -->
     <string name="title_ssh_port_preference">端口</string>
     <string name="dialog_title_ssh_port_preference">SSH：端口</string>
     <!-- SSH_OPTIONS -->
     <string name="title_ssh_options_preference">SSH 选项</string>
     <string name="dialog_title_ssh_options_preference">SSH：sshd 选项</string>
-
     <!-- PULSE -->
     <string name="pulse_preferences">声音服务</string>
     <!-- Enable audio output -->
@@ -243,23 +225,17 @@
     <!-- PULSE_PORT -->
     <string name="title_pulse_port_preference">端口</string>
     <string name="dialog_title_pulse_port_preference">PulseAudio：端口</string>
-
     <string name="gui_preferences">图形界面</string>
-
     <string name="title_is_gui_preference">启用</string>
     <string name="summary_is_gui_preference">允许使用图形环境</string>
-
     <string name="title_graphics_preference">图形子系统</string>
     <string name="dialog_title_graphics_preference">图形子系统</string>
-
     <string name="title_gui_properties_preference">图形界面设置</string>
     <string name="summary_gui_properties_preference">更改图形子系统的设置</string>
     <!-- DESKTOP -->
     <string name="title_desktop_preference">桌面环境</string>
     <string name="dialog_title_desktop_preference">桌面环境</string>
-
     <string name="vnc_preferences">VNC</string>
-
     <string name="title_vnc_display_preference">显示</string>
     <string name="dialog_title_vnc_display_preference">VNC：显示编号</string>
     <!-- VNC_DEPTH -->
@@ -277,7 +253,6 @@
     <!-- VNC_ARGS -->
     <string name="title_vnc_args_preference">VNC 选项</string>
     <string name="dialog_title_vnc_args_preference">VNC 服务器选项</string>
-
     <string name="x11_preferences">X11</string>
     <!-- X11_DISPLAY -->
     <string name="title_x11_display_preference">显示</string>
@@ -291,7 +266,6 @@
     <!-- X11_SDL_DELAY -->
     <string name="title_x11_sdl_delay_preference">启动延迟</string>
     <string name="dialog_title_x11_sdl_delay_preference">X11：延迟（单位：秒）</string>
-
     <string name="fb_preferences">帧缓冲区</string>
     <!-- FB_DISPLAY -->
     <string name="title_fb_display_preference">显示</string>
@@ -314,10 +288,21 @@
     <!-- FB_REFRESH -->
     <string name="title_fb_refresh_preference">强制刷新</string>
     <string name="summary_fb_refresh_preference">强制刷新帧缓冲区</string>
-
-    <string name="help_text">\n<b>帮助：</b>\n\n本应用程序安装选定的 GNU/Linux 发行版，并在 chroot 容器中执运行。\n\n使用步骤：\n1. 给本应用 超级用户（Root） 权限。\n2. 正常连接至互联网。\n3. 配置安装选项。\n4. 开始安装（\"菜单（右上角）\" => \"安装\"）。\n5. 等待安装完成。\n6. 点击\"启动\"按钮来启动容器。\n7. 通过 CLI、SSH、VNC 等方式连接容器。\n\n更多内容，详见\"关于\"。</string>
+    <string name="help_text">\n<b>帮助：</b>\n\n本应用程序安装选定的 GNU/Linux 发行版，并在 chroot 容器中执运行。\n\n使用步骤：\n1. 给本应用 超级用户（Root） 权限。\n2. 正常连接至互联网。\n3. 配置安装选项。\n4. 开始安装（\"菜单（右上角）\" =&gt; \"安装\"）。\n5. 等待安装完成。\n6. 点击\"启动\"按钮来启动容器。\n7. 通过 CLI、SSH、VNC 等方式连接容器。\n\n更多内容，详见\"关于\"。</string>
     <string name="about_text">本应用程序安装选定的 GNU/Linux 发行版，并在 chroot 容器中执运行。\n\n有关更多信息，请参阅：<a href="https://github.com/meefik/linuxdeploy"> Github </a>、<a href="http://4pda.ru/forum/index.php?showtopic=378043">论坛</a> 或 <a href="https://meefik.github.io">项目官方网站</a>。\n\n© 2012–2019 Anton Skshidlevsky, GPLv3 \n© 2023 Qiu qiu , GPLv3 </string>
-
     <!--如果有人再次翻译本xml并不使用机械翻译的话，最好重新以英文xml开始翻译，因为英文xml的内容理论是最全的，并且这里的翻译可能有很多错误-->
-
+    <string name="title_powertrack_preference">跟踪电源更改</string>
+    <string name="summary_powertrack_preference">跟踪电源的更改并更新容器</string>
+    <string name="title_method_options_preference">容器选项</string>
+    <string name="dialog_title_method_options_preference">容器选项</string>
+    <string name="dialog_title_net_trigger_preference">触发脚本的路径</string>
+    <string name="service_notification_channel_name">服务</string>
+    <string name="service_notification_channel_description">展示服务通知的频道</string>
+    <string name="title_method_preference">容器类型</string>
+    <string name="dialog_title_method_preference">容器类型</string>
+    <string name="title_net_trigger_preference">网络触发器</string>
+    <string name="title_power_trigger_preference">电源触发器</string>
+    <string name="dialog_title_power_trigger_preference">触发脚本的路径</string>
+    <string name="hint_mounts_source">源目录</string>
+    <string name="hint_mounts_target">目标目录(可选)</string>
 </resources>
