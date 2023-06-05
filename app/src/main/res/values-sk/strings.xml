@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">verzia %1$s</string>
     <string name="menu_start">SPUSTIŤ</string>
     <string name="menu_stop">ZASTAVIŤ</string>
@@ -163,9 +163,7 @@
     <string name="menu_export">Exportovať</string>
     <string name="nav_profiles">Profily</string>
     <string name="summary_is_gui_preference">Umožní spustenie grafického prostredia</string>
-    <string name="summary_is_http_preference"></string>
     <string name="summary_is_init_preference">Povolí vykonanie vlastných skriptov</string>
     <string name="dialog_title_path_preference">PATH</string>
     <string name="repository_purchase_button">Kúpiť</string>
-
 </resources>
