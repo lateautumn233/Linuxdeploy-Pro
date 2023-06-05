@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name" translatable="false">Linux Deploy</string>
     <string name="app_version">version %1$s</string>
     <string name="menu_start">START</string>
@@ -24,9 +24,9 @@
     <string name="menu_change_url">Change URL</string>
     <string name="menu_refresh">Refresh</string>
     <string name="menu_more">Menu</string>
-    <string name="loading_message">Loading data...</string>
-    <string name="updating_env_message">Updating operating environment...</string>
-    <string name="removing_env_message">Removing operating environment...</string>
+    <string name="loading_message">Loading data…</string>
+    <string name="updating_env_message">Updating operating environment…</string>
+    <string name="removing_env_message">Removing operating environment…</string>
     <string name="notification_current_profile">Current profile</string>
     <string name="title_activity_main" translatable="false">Linux Deploy</string>
     <string name="title_activity_about">About</string>
@@ -61,7 +61,6 @@
     <string name="repository_change_url_title">Repository URL</string>
     <string name="repository_default_description">No description.</string>
     <string name="write_permissions_disallow">The app was not allowed to write to your storage</string>
-
     <!-- APPLICATION -->
     <string name="app_preferences">Application</string>
     <!-- Lock screen -->
@@ -106,7 +105,6 @@
     <!-- Power trigger -->
     <string name="title_powertrack_preference">Track power changes</string>
     <string name="summary_powertrack_preference">Track changes of the power and update the container</string>
-
     <!-- ENVIRONMENT -->
     <string name="env_preferences">Environment</string>
     <!-- ENV_DIR -->
@@ -132,7 +130,6 @@
     <string name="title_removeenv_preference">Remove ENV</string>
     <string name="summary_removeenv_preference">Remove the operating environment</string>
     <string name="message_removeenv_confirm_dialog">Remove the operating environment?</string>
-
     <string name="services_preferences">Services</string>
     <!-- TELNET -->
     <string name="title_is_telnet_preference">TELNET</string>
@@ -148,7 +145,6 @@
     <string name="dialog_title_http_port_preference">HTTP port</string>
     <string name="title_http_conf_preference">Access restriction</string>
     <string name="dialog_title_http_conf_preference">Access restriction</string>
-
     <!-- DEBUG -->
     <string name="debug_preferences">Debug</string>
     <string name="title_debug_mode_preference">Debug mode</string>
@@ -159,7 +155,6 @@
     <string name="summary_logger_preference">Save logs to a file</string>
     <string name="title_logfile_preference">Log file</string>
     <string name="dialog_title_logfile_preference">Log file</string>
-
     <!-- INSTALL -->
     <string name="title_install_dialog">Install</string>
     <string name="message_install_dialog">Start installation of GNU/Linux distribution?</string>
@@ -168,7 +163,6 @@
     <string name="message_configure_dialog">Start configuration of the container?</string>
     <!-- EXPORT -->
     <string name="title_export_dialog">Export</string>
-
     <!-- BOOTSTRAP -->
     <string name="bootstrap_preferences">BOOTSTRAP</string>
     <!-- DISTRIB -->
@@ -218,7 +212,6 @@
     <!-- POWER_TRIGGER -->
     <string name="title_power_trigger_preference">Power trigger</string>
     <string name="dialog_title_power_trigger_preference">Path to trigger script</string>
-
     <!-- INIT -->
     <string name="init_preferences">INIT</string>
     <!-- Enable INIT -->
@@ -242,7 +235,6 @@
     <!-- INIT_ASYNC -->
     <string name="title_init_async_preference">Async</string>
     <string name="summary_init_async_preference">Run the processes asynchronously</string>
-
     <!-- MOUNTS -->
     <string name="mounts_preferences">MOUNTS</string>
     <string name="title_is_mounts_preference">Enable</string>
@@ -251,7 +243,6 @@
     <string name="summary_mounts_editor_preference">Edit the mount points list</string>
     <string name="hint_mounts_source">Source</string>
     <string name="hint_mounts_target">Target (optional)</string>
-
     <!-- SSH -->
     <string name="ssh_preferences">SSH</string>
     <!-- Enable SSH -->
@@ -266,7 +257,6 @@
     <!-- SSH_OPTIONS -->
     <string name="title_ssh_options_preference">SSH options</string>
     <string name="dialog_title_ssh_options_preference">SSH: sshd options</string>
-
     <!-- PULSE -->
     <string name="pulse_preferences">PulseAudio</string>
     <!-- Enable audio output -->
@@ -281,7 +271,6 @@
     <!-- PULSE_PORT -->
     <string name="title_pulse_port_preference">Port</string>
     <string name="dialog_title_pulse_port_preference">PulseAudio: port</string>
-
     <!-- GUI -->
     <string name="gui_preferences">GUI</string>
     <!-- Enable GUI -->
@@ -296,7 +285,6 @@
     <!-- DESKTOP -->
     <string name="title_desktop_preference">Desktop environment</string>
     <string name="dialog_title_desktop_preference">Desktop environment</string>
-
     <!-- VNC -->
     <string name="vnc_preferences">VNC</string>
     <!-- VNC_DISPLAY -->
@@ -317,7 +305,6 @@
     <!-- VNC_ARGS -->
     <string name="title_vnc_args_preference">VNC options</string>
     <string name="dialog_title_vnc_args_preference">VNC: vncserver options</string>
-
     <!-- X11 -->
     <string name="x11_preferences">X11</string>
     <!-- X11_DISPLAY -->
@@ -332,7 +319,6 @@
     <!-- X11_SDL_DELAY -->
     <string name="title_x11_sdl_delay_preference">Start delay</string>
     <string name="dialog_title_x11_sdl_delay_preference">X11: delay in seconds</string>
-
     <!-- Framebuffer -->
     <string name="fb_preferences">Framebuffer</string>
     <!-- FB_DISPLAY -->
@@ -356,12 +342,10 @@
     <!-- FB_REFRESH -->
     <string name="title_fb_refresh_preference">Force refresh</string>
     <string name="summary_fb_refresh_preference">Force refresh framebuffer</string>
-
     <!-- HELP -->
-    <string name="help_text">\n<b>Help</b>\n\nThis application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nProcedure:\n1. Get superuser privileges (root).\n2. Check the connection to Internet.\n3. Specify the installation options.\n4. Start the installation (\"Menu => Install\").\n5. Wait until the installation is complete.\n6. Tap \"START\" button to run the container.\n7. Connect to the container through CLI, SSH, VNC, or others.\n\nFor more information, see \"About\".</string>
+    <string name="help_text">\n<b>Help</b>\n\nThis application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nProcedure:\n1. Get superuser privileges (root).\n2. Check the connection to Internet.\n3. Specify the installation options.\n4. Start the installation (\"Menu =&gt; Install\").\n5. Wait until the installation is complete.\n6. Tap \"START\" button to run the container.\n7. Connect to the container through CLI, SSH, VNC, or others.\n\nFor more information, see \"About\".</string>
     <!-- ABOUT -->
-    <string name="about_text">This application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nFor more information see <a href="https://github.com/meefik/linuxdeploy">project page</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> or <a href="https://meefik.github.io">developer site</a>.\n\n&#169; 2012&#8211;2019 Anton Skshidlevsky, GPLv3</string>
+    <string name="about_text">This application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nFor more information see <a href="https://github.com/meefik/linuxdeploy">project page</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> or <a href="https://meefik.github.io">developer site</a>.\n\n© 2012–2019 Anton Skshidlevsky, GPLv3</string>
     <string name="service_notification_channel_name">Services</string>
     <string name="service_notification_channel_description">Channel to display service notifications</string>
-
 </resources>
