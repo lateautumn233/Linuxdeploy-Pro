@@ -60,6 +60,9 @@ Installation time and use space on disk (Debian wheezy/armhf on Samsung Galaxy S
 
 ## Links
 
+Translation:
+
+[![Translation](https://hosted.weblate.org/widgets/Linux-Deploy/-/linux-deploy/open-graph.png)](https://hosted.weblate.org/engage/Linux-Deploy/)
 Source code: 
 
 - Linux Deploy App: <https://github.com/meefik/linuxdeploy>
