@@ -1,8 +1,10 @@
 # Linux Deploy
 
-[![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml)
+[![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml) ![Download](https://img.shields.io/github/downloads/lateautumn233/Linuxdeploy-Pro/total)
 
-Copyright (C) 2012-2019  Anton Skshidlevsky, [GPLv3](https://github.com/meefik/linuxdeploy/blob/master/LICENSE)
+Copyright (C) 2012-2019  Anton Skshidlevsky <br/>
+Copyright (C) 2020-2023  Lateautumn <br/>
+[GPLv3](https://github.com/lateautumn233/linuxdeploy-Pro/blob/master/LICENSE)
 
 This application is open source software for quick and easy installation of the operating system (OS) GNU/Linux on your Android device.
 
@@ -14,8 +16,7 @@ Installing a new operating system takes about 15 minutes. The recommended minimu
 
 The app is available for download in Google Play and GitHub.
 
-<a href="https://play.google.com/store/apps/details?id=ru.meefik.linuxdeploy"><img src="https://gist.githubusercontent.com/meefik/54a54afa7cc1dc600bdb855cb7895a4a/raw/ad617c006a1ac28d067c9a87cec60199ca8fef7c/get-it-on-google-play.png" alt="Get it on Google Play"></a>
-<a href="https://github.com/meefik/linuxdeploy/releases/latest"><img src="https://gist.githubusercontent.com/meefik/54a54afa7cc1dc600bdb855cb7895a4a/raw/ad617c006a1ac28d067c9a87cec60199ca8fef7c/get-apk-from-github.png" alt="Get it on Github"></a>
+<a href="https://github.com/lateautumn233/linuxdeploy-Pro/releases/latest"><img src="https://gist.githubusercontent.com/meefik/54a54afa7cc1dc600bdb855cb7895a4a/raw/ad617c006a1ac28d067c9a87cec60199ca8fef7c/get-apk-from-github.png" alt="Get it on Github"></a>
 
 ## Features
 
@@ -26,20 +27,6 @@ The app is available for download in Google Play and GitHub.
 - Control interface: CLI, SSH, VNC, X11, Framebuffer
 - Desktop environment: XTerm, LXDE, Xfce, MATE, other (manual configuration)
 - Supported languages: multilingual interface
-
-## FAQ
-
-> Do not work update operating environment or errors appear in debug mode: "Permission denied", "Socket operation on non-socket" or other.
-
-Install compatible [BusyBox](https://github.com/meefik/busybox/releases) in /system/xbin, add path /system/xbin in "Settings -> PATH variable", update the operating environment "Settings -> Update ENV". Before upgrading the environment, it is desirable restart the device. After that, the container options must be selected "Properties -> File system -> Auto" and "Propetries -> Image size (MB) -> 2000", because "busybox mke2fs" is not supperted an option "-t" to specify type of file system and not supperted image greater 2 GB. Now you can start a new installation "Menu -> Install".
-
-> Making an image on sdcard return an error "Read-only file system".
-
-If you are using SuperSU utility you need to uncheck "mount namespace separation" in SuperSU settings. See [documentation](https://su.chainfire.eu/#how-mount).
-
-> Installing an application on Google Play fails with the message "Unknown error code during application installation: -24".
-
-You need to remove the application directory: /data/data/ru.meefik.linuxdeploy
 
 ## Performance
 
@@ -65,10 +52,6 @@ Translation:
 [![Translation](https://hosted.weblate.org/widgets/Linux-Deploy/-/linux-deploy/open-graph.png)](https://hosted.weblate.org/engage/Linux-Deploy/)
 Source code: 
 
-- Linux Deploy App: <https://github.com/meefik/linuxdeploy>
-- Linux Deploy CLI: <https://github.com/meefik/linuxdeploy-cli>
+- Linux Deploy App: <https://github.com/lateautumn233/linuxdeploy-Pro>
+- Linux Deploy CLI: <https://github.com/lateautumn233/linuxdeploy-cli>
 
-Donations:
-
-- E-Money: <https://meefik.github.io/donate>
-- Google Play: <https://play.google.com/store/apps/details?id=ru.meefik.donate>
