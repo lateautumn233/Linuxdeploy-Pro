@@ -296,6 +296,11 @@ public class EnvUtils {
         List<String> params = new ArrayList<>();
         // install busybox applets
         params.add("busybox --install -s " + PrefStore.getBinDir(c));
+        // install ztsd applets
+        params.add("ENV_DIR=\"" + PrefStore.getEnvDir(c) + "\"\n");
+        params.add("ln -s ${ENV_DIR}/bin/zstd ${ENV_DIR}/bin/unzstd");
+        params.add("ln -s ${ENV_DIR}/bin/zstd ${ENV_DIR}/bin/zstdcat");
+        params.add("ln -s ${ENV_DIR}/bin/zstd ${ENV_DIR}/bin/zstdmt");
         // replace shell interpreter in some scripts
         String[] scripts = {
                 PrefStore.getBinDir(c) + "/websocket.sh",
