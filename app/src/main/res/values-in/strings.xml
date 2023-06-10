@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">"Versi %s"</string>
     <string name="menu_start">"MULAI"</string>
     <string name="menu_stop">"BERHENTI"</string>
@@ -23,9 +23,9 @@
     <string name="menu_change_url">"Ubah URL"</string>
     <string name="menu_refresh">"Menyegarkan"</string>
     <string name="menu_more">"Menu"</string>
-    <string name="loading_message">"Memuat data ..."</string>
-    <string name="updating_env_message">"Memperbarui lingkungan operasi ..."</string>
-    <string name="removing_env_message">"Menghapus lingkungan operasi ..."</string>
+    <string name="loading_message">Memuat data …</string>
+    <string name="updating_env_message">Memperbaharui lingkungan operasi…</string>
+    <string name="removing_env_message">Menghapus lingkungan operasi…</string>
     <string name="notification_current_profile">"Profil saat ini"</string>
     <string name="title_activity_about">"Tentang"</string>
     <string name="title_activity_settings">"Pengaturan"</string>
@@ -59,7 +59,6 @@
     <string name="repository_change_url_title">"URL repositori"</string>
     <string name="repository_default_description">"Tidak ada deskripsi."</string>
     <string name="write_permissions_disallow">"Aplikasi tidak diizinkan untuk menulis ke penyimpanan Anda"</string>
-
     <string name="app_preferences">"Aplikasi"</string>
     <string name="title_screenlock_preference">"Layar kunci"</string>
     <string name="summary_screenlock_preference">"Jaga layar tetap aktif saat aplikasi sedang berjalan"</string>
@@ -87,28 +86,22 @@
     <string name="dialog_title_autostart_delay_preference">"Tunda (detik)"</string>
     <string name="title_nettrack_preference">"Pemicu jaringan"</string>
     <string name="summary_nettrack_preference">"Melacak perubahan jaringan dan memperbarui container"</string>
-
     <string name="env_preferences">"Environment"</string>
-
     <!-- ENV_DIR -->
     <string name="title_env_dir_preference">"Direktori ENV"</string>
     <string name="dialog_title_env_dir_preference">"Direktori ENV"</string>
     <!-- PATH -->
     <string name="title_path_preference">"Variabel PATH"</string>
     <string name="dialog_title_path_preference">"Variabel PATH"</string>
-
     <!-- SERVER_URL -->
     <string name="title_server_url_preference">"URL server"</string>
     <string name="dialog_title_server_url_preference">"URL server"</string>
-
     <string name="title_installenv_preference">"Perbarui ENV"</string>
     <string name="summary_installenv_preference">"Perbarui lingkungan pengoperasian"</string>
     <string name="message_installenv_confirm_dialog">"Update lingkungan operasi?"</string>
-
     <string name="title_removeenv_preference">"Hapus ENV"</string>
     <string name="summary_removeenv_preference">"Hapus lingkungan pengoperasian"</string>
     <string name="message_removeenv_confirm_dialog">"Hapus lingkungan operasi?"</string>
-
     <string name="services_preferences">"Pengelolaan"</string>
     <!-- TELNET -->
     <string name="title_is_telnet_preference">"TELNET"</string>
@@ -138,7 +131,6 @@
     <string name="title_configure_dialog">"Konfigurasi"</string>
     <string name="message_configure_dialog">"Mulai konfigurasi container?"</string>
     <string name="title_export_dialog">"Ekspor"</string>
-
     <string name="bootstrap_preferences">"BOOTSTRAP"</string>
     <!-- DISTRIB -->
     <string name="title_distrib_preference">"Distribusi"</string>
@@ -181,9 +173,7 @@
     <!-- LOCALE -->
     <string name="title_locale_preference">"Lokalisasi"</string>
     <string name="dialog_title_locale_preference">"Lokalisasi"</string>
-
     <string name="init_preferences">"INIT"</string>
-
     <!-- INIT -->
     <string name="title_is_init_preference">"Aktif"</string>
     <string name="summary_is_init_preference">"Izinkan untuk menggunakan sistem inisialisasi"</string>
@@ -191,7 +181,6 @@
     <string name="dialog_title_init_preference">"Sistem init"</string>
     <string name="title_init_properties_preference">"Pengaturan init"</string>
     <string name="summary_init_properties_preference">"Ubah pengaturan untuk sistem inisialisasi"</string>
-
     <!-- INIT_PATH -->
     <string name="title_init_path_preference">"Path init"</string>
     <string name="dialog_title_init_path_preference">"INIT: file atau direktori"</string>
@@ -204,46 +193,34 @@
     <!-- INIT_ASYNC -->
     <string name="title_init_async_preference">"Async"</string>
     <string name="summary_init_async_preference">"Jalankan proses secara asinkron"</string>
-
     <string name="mounts_preferences">"MOUNTS"</string>
-
     <!-- MOUNTS -->
     <string name="title_is_mounts_preference">"Aktif"</string>
     <string name="summary_is_mounts_preference">"Izinkan untuk me-mount sumber daya Android"</string>
     <string name="title_mounts_editor_preference">"Mount point"</string>
     <string name="summary_mounts_editor_preference">"Edit daftar mount point"</string>
-
     <string name="ssh_preferences">"SSH"</string>
-
     <string name="title_is_ssh_preference">"Aktif"</string>
     <string name="summary_is_ssh_preference">"Izinkan untuk menggunakan server SSH"</string>
-
     <string name="title_ssh_properties_preference">"Pengaturan SSH"</string>
     <string name="summary_ssh_properties_preference">"Ubah pengaturan untuk server SSH"</string>
-
     <!-- SSH_PORT -->
     <string name="title_ssh_port_preference">"Port"</string>
     <string name="dialog_title_ssh_port_preference">"SSH: port"</string>
     <!-- SSH_OPTIONS -->
     <string name="title_ssh_options_preference">"Pilihan SSH"</string>
     <string name="dialog_title_ssh_options_preference">"SSH: opsi sshd"</string>
-
     <string name="gui_preferences">"GUI"</string>
-
     <string name="title_is_gui_preference">"Aktif"</string>
     <string name="summary_is_gui_preference">"Izinkan untuk menggunakan lingkungan grafis"</string>
-
     <string name="title_graphics_preference">"Subsistem grafis"</string>
     <string name="dialog_title_graphics_preference">"Subsistem grafis"</string>
-
     <string name="title_gui_properties_preference">"Pengaturan GUI"</string>
     <string name="summary_gui_properties_preference">"Ubah pengaturan untuk subsistem grafis"</string>
     <!-- DESKTOP -->
     <string name="title_desktop_preference">"Lingkungan desktop"</string>
     <string name="dialog_title_desktop_preference">"Lingkungan desktop"</string>
-
     <string name="vnc_preferences">"VNC"</string>
-
     <string name="title_vnc_display_preference">"Tampilan"</string>
     <string name="dialog_title_vnc_display_preference">"VNC: nomor tampilan"</string>
     <!-- VNC_DEPTH -->
@@ -261,7 +238,6 @@
     <!-- VNC_ARGS -->
     <string name="title_vnc_args_preference">"Pilihan VNC"</string>
     <string name="dialog_title_vnc_args_preference">"VNC: pilihan vncserver"</string>
-
     <string name="x11_preferences">"X11"</string>
     <!-- X11_DISPLAY -->
     <string name="title_x11_display_preference">"Tampilan"</string>
@@ -275,7 +251,6 @@
     <!-- X11_SDL_DELAY -->
     <string name="title_x11_sdl_delay_preference">"Jeda mulai"</string>
     <string name="dialog_title_x11_sdl_delay_preference">"X11: jeda dalam hitungan detik"</string>
-
     <string name="fb_preferences">"Framebuffer"</string>
     <!-- FB_DISPLAY -->
     <string name="title_fb_display_preference">"Tampilan"</string>
@@ -298,8 +273,9 @@
     <!-- FB_REFRESH -->
     <string name="title_fb_refresh_preference">"Paksa penyegaran"</string>
     <string name="summary_fb_refresh_preference">"Paksa refresh framebuffer"</string>
-
     <string name="help_text">"\n<b>Bantuan</b>\n\nAplikasi ini untuk menginstal distribusi GNU/Linux yang dipilih dan menjalankannya dalam container chroot.\n\nProsedur:\n1. Dapatkan hak istimewa superuser (root).\n2. Periksa koneksi Internet.\n3. Tentukan pilihan instalasi.\n4. Jalankan instalasi (\"Menu =&gt; Install\").\n5. Tunggu sampai penginstalan selesai.\n6. Ketuk tombol \"START\" untuk menjalankan container.\n7. Sambungkan melalui CLI, SSH, VNC, atau lainnya.\n\nUntuk informasi lebih lanjut, lihat \"Tentang\"."</string>
     <string name="about_text">"Aplikasi ini untuk menginstal distribusi GNU/Linux yang dipilih dan menjalankannya dalam container chroot.\n\nUntuk informasi lebih lanjut, lihat <a href="https://github.com/meefik/linuxdeploy">halaman project</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> atau <a href="https://meefik.github.io">situs pengembang</a>.\n\n© 2012-2019 Anton Skshidlevsky, GPLv3"</string>
-
+    <string name="title_powertrack_preference">Lacak perubahan daya</string>
+    <string name="summary_powertrack_preference">Lacak perubahan daya dan perbarui kontainer</string>
+    <string name="title_method_preference">Metode kontainerisasi</string>
 </resources>
