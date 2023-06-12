@@ -190,6 +190,9 @@
     <!-- FS_TYPE -->
     <string name="title_fs_type_preference">File system</string>
     <string name="dialog_title_fs_type_preference">File system</string>
+    <!-- HOST_NAME -->
+    <string name="title_host_name_preference">Host name</string>
+    <string name="dialog_title_host_name_preference">Host name</string>
     <!-- USER_NAME -->
     <string name="title_user_name_preference">User name</string>
     <string name="dialog_title_user_name_preference">User name</string>
