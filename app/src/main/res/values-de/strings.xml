@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">version %1$s</string>
     <string name="menu_start">START</string>
     <string name="menu_stop">STOP</string>
@@ -166,5 +166,5 @@
     <string name="dialog_title_path_preference">PATH</string>
     <string name="gui_preferences">GUI</string>
     <string name="repository_purchase_button">Kaufen</string>
-
+    <string name="nav_terminal">Terminal</string>
 </resources>
