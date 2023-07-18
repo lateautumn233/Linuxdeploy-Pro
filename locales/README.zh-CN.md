@@ -1,14 +1,14 @@
-# Linux Deploy
+# Linux Deploy - 在您的安卓设备上安装Linux容器！
 
 [![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml) ![Download](https://img.shields.io/github/downloads/lateautumn233/Linuxdeploy-Pro/total)
 
 Copyright (C) 2012-2019  Anton Skshidlevsky <br/> Copyright (C) 2020-2023  Lateautumn <br/> [GPLv3](https://github.com/lateautumn233/linuxdeploy-Pro/blob/master/LICENSE)
 
-This application is open source software for quick and easy installation of the operating system (OS) GNU/Linux on your Android device.
+此开源应用可以在您的安卓设备上快速简单地安装 GNU/Linux 操作系统。
 
-The application creates a disk image or a directory on a flash card or uses a partition or RAM, mounts it and installs an OS distribution. Applications of the new system are run in a chroot environment and working together with the Android platform. All changes made on the device are reversible, i.e. the application and components can be removed completely. Installation of a distribution is done by downloading files from official mirrors online over the internet. The application can run better with superuser rights (root).
+此应用在闪存上创建镜像或目录，或使用物理分区或Ramdisk，然后挂载并安装 Linux 发行版。 Linux 系统在 chroot 容器中运行，因此可以和安卓平台一起运行。 在您设备上的所有更改都是可逆的，也就是说此应用可以安全被地删除。 发行版的安装是通过互联网上的官方镜像来下载文件。 此应用需要 root 权限！
 
-The program supports multi language interface. You can manage the process of installing the OS, and after installation, you can start and stop services of the new system (there is support for running your scripts) through the UI. The installation process is reported as text in the main application window. During the installation, the program will adjust the environment, which includes the base system, SSH server, VNC server and desktop environment. The program interface can also manage SSH and VNC settings.
+此应用支持多语言界面。 您可以管理安装操作系统的过程，在安装后，您可以通过用户界面启动和停止 Linux 容器 (支持运行自定义脚本)。 安装过程将显示在应用主界面上。 During the installation, the program will adjust the environment, which includes the base system, SSH server, VNC server and desktop environment. The program interface can also manage SSH and VNC settings.
 
 Installing a new operating system takes about 15 minutes. The recommended minimum size of a disk image is 1024 MB (with LXDE), and without a GUI - 512 MB. When you install Linux on the flash card with the FAT32 file system, the image size should not exceed 4095 MB! After the initial setup the password for SSH and VNC generated automatically. The password can be changed through "Properties -> User password" or standard OS tools (passwd, vncpasswd).
 
