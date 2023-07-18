@@ -8,7 +8,7 @@ Copyright (C) 2012-2019  Anton Skshidlevsky <br/> Copyright (C) 2020-2023  Latea
 
 此应用在闪存上创建镜像或目录，或使用物理分区或Ramdisk，然后挂载并安装 Linux 发行版。 Linux 系统在 chroot 容器中运行，因此可以和安卓平台一起运行。 在您设备上的所有更改都是可逆的，也就是说此应用可以安全被地删除。 发行版的安装是通过互联网上的官方镜像来下载文件。 此应用需要 root 权限！
 
-此应用支持多语言界面。 您可以管理安装操作系统的过程，在安装后，您可以通过用户界面启动和停止 Linux 容器 (支持运行自定义脚本)。 安装过程将显示在应用主界面上。 During the installation, the program will adjust the environment, which includes the base system, SSH server, VNC server and desktop environment. The program interface can also manage SSH and VNC settings.
+此应用支持多语言界面。 您可以管理安装操作系统的过程，在安装后，您可以通过用户界面启动和停止 Linux 容器 (支持运行自定义脚本)。 安装过程将显示在应用主界面上。 在安装过程中，此应用将配置环境，包括基础系统、SSH 服务器、VNC 服务器和桌面环境。 The program interface can also manage SSH and VNC settings.
 
 Installing a new operating system takes about 15 minutes. The recommended minimum size of a disk image is 1024 MB (with LXDE), and without a GUI - 512 MB. When you install Linux on the flash card with the FAT32 file system, the image size should not exceed 4095 MB! After the initial setup the password for SSH and VNC generated automatically. The password can be changed through "Properties -> User password" or standard OS tools (passwd, vncpasswd).
 
