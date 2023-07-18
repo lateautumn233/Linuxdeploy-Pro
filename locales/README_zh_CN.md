@@ -1,3 +1,5 @@
+**English** | [简体中文](locales/README_zh_CN.md) | [繁體中文](locales/README_zh_TW.md) | [Русский](locales/README_ru_RU.md)
+
 # Linux Deploy
 
 [![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml) ![Download](https://img.shields.io/github/downloads/lateautumn233/Linuxdeploy-Pro/total)
@@ -8,7 +10,7 @@ This application is open source software for quick and easy installation of the 
 
 The application creates a disk image or a directory on a flash card or uses a partition or RAM, mounts it and installs an OS distribution. Applications of the new system are run in a chroot environment and working together with the Android platform. All changes made on the device are reversible, i.e. the application and components can be removed completely. Installation of a distribution is done by downloading files from official mirrors online over the internet. The application can run better with superuser rights (root).
 
-The program supports multi language interface. You can manage the process of installing the OS, and after installation, you can start and stop services of the new system (there is support for running your scripts) through the UI. The installation process is reported as text in the main application window. During the installation, the program will adjust the environment, which includes the base system, SSH server, VNC server and desktop environment. The program interface can also manage SSH and VNC settings.
+The program supports multi language interface. You can manage the process of installing the OS, and after installation, you can start and stop services of the new system (there is support for running your scripts) through the UI. The installation process is reported as text in the main application window. During the installation, the program will adjust the environment, which includes the base system, SSH server, VNC server and desktop environment. The program interface can also manage SSH and VNC settings. You can manage the process of installing the OS, and after installation, you can start and stop services of the new system (there is support for running your scripts) through the UI. The installation process is reported as text in the main application window. During the installation, the program will adjust the environment, which includes the base system, SSH server, VNC server and desktop environment. The program interface can also manage SSH and VNC settings.
 
 Installing a new operating system takes about 15 minutes. The recommended minimum size of a disk image is 1024 MB (with LXDE), and without a GUI - 512 MB. When you install Linux on the flash card with the FAT32 file system, the image size should not exceed 4095 MB! After the initial setup the password for SSH and VNC generated automatically. The password can be changed through "Properties -> User password" or standard OS tools (passwd, vncpasswd).
 
@@ -27,6 +29,13 @@ The app is available for download in Google Play and GitHub.
 - Supported languages: multilingual interface
 
 ## Performance
+
+SD card read / write speed (10 class) on Android (Samsung Galaxy S II) for file systems vfat, ext2, ext4:
+- **vfat**: read speed 14.1 MB/s; write speed 12.0 MB/s
+- **ext2**: read speed 14.9 MB/s; write speed 3.9 MB/s
+- **ext4**: read speed 14.9 MB/s; write speed 16.6 MB/s
+- **ext2 (loop)**: read speed 17.0 MB/s; write speed 7.4 MB/s
+- **ext4 (loop)**: read speed 17.2 MB/s; write speed 8.8 MB/s
 
 Installation time and use space on disk (Debian wheezy/armhf on Samsung Galaxy S II):
 - **Without GUI** ~ 0:12 / 260 MB
