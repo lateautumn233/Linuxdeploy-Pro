@@ -1,3 +1,5 @@
+**English** | [简体中文](locales/README_zh_CN.md) | [繁體中文](locales/README_zh_TW.md) | [Русский](locales/README_ru_RU.md)
+
 # Linux Deploy
 
 [![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml) ![Download](https://img.shields.io/github/downloads/lateautumn233/Linuxdeploy-Pro/total)
