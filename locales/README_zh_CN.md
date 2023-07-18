@@ -1,5 +1,3 @@
-**English** | [简体中文](locales/README_zh_CN.md) | [繁體中文](locales/README_zh_TW.md) | [Русский](locales/README_ru_RU.md)
-
 # Linux Deploy
 
 [![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml) ![Download](https://img.shields.io/github/downloads/lateautumn233/Linuxdeploy-Pro/total)
@@ -29,13 +27,6 @@ The app is available for download in Google Play and GitHub.
 - Supported languages: multilingual interface
 
 ## Performance
-
-SD card read / write speed (10 class) on Android (Samsung Galaxy S II) for file systems vfat, ext2, ext4:
-- **vfat**: read speed 14.1 MB/s; write speed 12.0 MB/s
-- **ext2**: read speed 14.9 MB/s; write speed 3.9 MB/s
-- **ext4**: read speed 14.9 MB/s; write speed 16.6 MB/s
-- **ext2 (loop)**: read speed 17.0 MB/s; write speed 7.4 MB/s
-- **ext4 (loop)**: read speed 17.2 MB/s; write speed 8.8 MB/s
 
 Installation time and use space on disk (Debian wheezy/armhf on Samsung Galaxy S II):
 - **Without GUI** ~ 0:12 / 260 MB
