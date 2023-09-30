@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">wersja %1$s</string>
     <string name="menu_start">URUCHOM</string>
     <string name="menu_stop">ZATRZYMAJ</string>
@@ -164,12 +164,29 @@
     <string name="summary_fb_refresh_preference">Wymuś odświeżanie framebuffer</string>
     <string name="title_fb_freeze_preference">Zatrzymaj Android UI</string>
     <string name="dialog_title_fb_freeze_preference">Zatrzymaj Android UI</string>
-    <string name="help_text">\n<b>Pomoc</b>\n\nTa aplikacja instaluje wybraną dystrybucję GNU/Linux i uruchamia ją w środowisku chroot.\n\nProcedura:\n1. Zdobądź uprawnienia root.\n2. Sprawdź połączenie internetowe.\n3. Określ ustawienia instalacji.\n4. Rozpocznij instalację (\"Właściwości => Instaluj\").\n5. Poczekaj do zakończenia instalacji.\n6. Naciśnij przycisk \"URUCHOM\", aby uruchomić profil.\n7. Połącz się używając CLI, SSH, VNC lub innych.\n\nAby uzyskać więcej informacji zobacz \"O programie\".</string>
-    <string name="about_text">Ta aplikacja instaluje wybraną dystrybucję GNU/Linux i uruchamia ją w środowisku chroot.\n\nAby uzyskać więcej informacji zobacz <a href="https://github.com/meefik/linuxdeploy">stronę projektu</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> lub <a href="https://meefik.github.io">stronę programisty</a>.\n\n&#169; 2012&#8211;2019 Anton Skshidlevsky, GPLv3</string>
+    <string name="help_text">\n<b>Pomoc</b>\n\nTa aplikacja instaluje wybraną dystrybucję GNU/Linux i uruchamia ją w środowisku chroot.\n\nProcedura:\n1. Zdobądź uprawnienia root.\n2. Sprawdź połączenie internetowe.\n3. Określ ustawienia instalacji.\n4. Rozpocznij instalację (\"Właściwości =&gt; Instaluj\").\n5. Poczekaj do zakończenia instalacji.\n6. Naciśnij przycisk \"URUCHOM\", aby uruchomić profil.\n7. Połącz się używając CLI, SSH, VNC lub innych.\n\nAby uzyskać więcej informacji zobacz \"O programie\".</string>
+    <string name="about_text">Ta aplikacja instaluje wybraną dystrybucję GNU/Linux i uruchamia ją w środowisku chroot.\n\nAby uzyskać więcej informacji zobacz <a href="https://github.com/meefik/linuxdeploy">stronę projektu</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> lub <a href="https://meefik.github.io">stronę programisty</a>.\n\n© 2012–2019 Anton Skshidlevsky, GPLv3</string>
     <string name="nav_profiles">Profile</string>
     <string name="services_preferences">Zarządzanie</string>
     <string name="title_configure_dialog">Konfiguruj</string>
     <string name="gui_preferences">GUI</string>
     <string name="repository_purchase_button">Kupować</string>
-
+    <string name="toast_updating_env_error">Błąd podczas aktualizacji środowiska operacyjnego!</string>
+    <string name="toast_loading_error">Błąd podczas wczytywania danych!</string>
+    <string name="repository_default_description">Brak opisu.</string>
+    <string name="menu_more">Menu</string>
+    <string name="menu_refresh">Odśwież</string>
+    <string name="navigation_drawer_close">Zamknij szufladę nawigacyjną</string>
+    <string name="navigation_drawer_open">Otwórz szufladę nawigacyjną</string>
+    <string name="nav_repository">Repozytorium</string>
+    <string name="repository_import_message">%1$s
+\n
+\nRozmiar: %2$s MB</string>
+    <string name="repository_change_url_title">Adres URL repozytorium</string>
+    <string name="menu_change_url">Zmień adres URL</string>
+    <string name="title_activity_repository">Repozytorium</string>
+    <string name="removing_env_message">Usuwanie środowiska operacyjnego…</string>
+    <string name="loading_message">Wczytywanie danych…</string>
+    <string name="repository_import_button">Importuj</string>
+    <string name="updating_env_message">Aktualizowanie środowiska operacyjnego…</string>
 </resources>
