@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">versión %1$s</string>
     <string name="menu_start">INICIAR</string>
     <string name="menu_stop">PARAR</string>
@@ -167,5 +167,27 @@
     <string name="gui_preferences">GUI</string>
     <string name="repository_purchase_button">Comprar</string>
     <string name="write_permissions_disallow">La aplicación no puede escribir en la tarjeta de memoria</string>
-
+    <string name="toast_updating_env_error">¡Error el actualización del entorno de trabajo!</string>
+    <string name="toast_loading_error">¡Error al cargar los datos!</string>
+    <string name="repository_default_description">Sin descripción.</string>
+    <string name="menu_more">Menú</string>
+    <string name="menu_refresh">Volver a actualizar</string>
+    <string name="dialog_title_autostart_delay_preference">Demora (segundos)</string>
+    <string name="title_autostart_delay_preference">Demora del inicio</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+    <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
+    <string name="summary_stealth_preference">Ocultar el icono de una aplicación en el lanzador</string>
+    <string name="nav_repository">Repositorio</string>
+    <string name="repository_import_message">%1$s
+\n
+\nTamaño: %2$s MB</string>
+    <string name="repository_change_url_title">Dirección URL del repositorio</string>
+    <string name="menu_change_url">Cambiar la dirección URL</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="title_activity_repository">Repositorio</string>
+    <string name="loading_message">Cargando los datos…</string>
+    <string name="title_nettrack_preference">Seguir los cambios en la red</string>
+    <string name="title_stealth_preference">Modo sigilo</string>
+    <string name="repository_import_button">Importar</string>
+    <string name="summary_wakelock_preference">Mantener la CPU en funcionamiento para trabajar mientras la pantalla está apagada</string>
 </resources>
