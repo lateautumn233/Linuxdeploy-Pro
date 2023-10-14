@@ -3,7 +3,7 @@
     <string name="app_version">版本号： %1$s</string>
     <string name="menu_start">启动</string>
     <string name="menu_stop">停止</string>
-    <string name="menu_properties">菜单</string>
+    <string name="menu_properties">属性</string>
     <string name="nav_profiles">配置文件</string>
     <string name="nav_repository">仓库</string>
     <string name="nav_terminal">终端</string>
@@ -49,16 +49,16 @@
     <string name="toast_updating_env_error">操作环境更新错误！</string>
     <string name="confirm_profile_discard_title">删除配置文件</string>
     <string name="confirm_profile_discard_message">你确定删除这个配置文件？</string>
-    <string name="new_mount_title">挂载点</string>
-    <string name="edit_mount_title">挂载点</string>
+    <string name="new_mount_title">新建挂载点</string>
+    <string name="edit_mount_title">编辑挂载点</string>
     <string name="confirm_mount_discard_title">移除挂载点</string>
     <string name="confirm_mount_discard_message">确定移除这个挂载点？</string>
     <string name="repository_import_message">%1$s\n\n文件大小： %2$s MB</string>
-    <string name="repository_import_button">添加</string>
+    <string name="repository_import_button">导入</string>
     <string name="repository_purchase_button">购买</string>
     <string name="repository_change_url_title">仓库源地址</string>
     <string name="repository_default_description">没有说明。</string>
-    <string name="write_permissions_disallow">应用无法写入存储，你是否授予了本应用储存权限？</string>
+    <string name="write_permissions_disallow">应用未被允许写入您的存储空间</string>
     <!--设置-->
     <string name="app_preferences">应用</string>
     <string name="title_screenlock_preference">屏幕常亮</string>
@@ -293,8 +293,7 @@
 \n
 \n有关更多信息，请参阅：<a href="https://github.com/meefik/linuxdeploy"> Github </a>、<a href="http://4pda.ru/forum/index.php?showtopic=378043">论坛</a> 或 <a href="https://meefik.github.io">项目官方网站</a>。
 \n
-\n© 2012–2019 Anton Skshidlevsky, GPLv3
-\n© 2023 Qiu qiu , GPLv3</string>
+\n© 2012–2019 Anton Skshidlevsky, GPLv3 Translated by© 2023 Qiu qiu , GPLv3</string>
     <!--如果有人再次翻译本xml并不使用机械翻译的话，最好重新以英文xml开始翻译，因为英文xml的内容理论是最全的，并且这里的翻译可能有很多错误-->
     <string name="title_powertrack_preference">跟踪电源更改</string>
     <string name="summary_powertrack_preference">跟踪电源的更改并更新容器</string>
