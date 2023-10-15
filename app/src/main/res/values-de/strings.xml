@@ -183,4 +183,12 @@
     <string name="repository_default_description">Keine Beschreibung.</string>
     <string name="loading_message">Daten werden geladen…</string>
     <string name="updating_env_message">Betriebsumgebung wird aktualisiert…</string>
+    <string name="title_path_preference">PATH-Variable</string>
+    <string name="dialog_title_autostart_delay_preference">Verzögerung (Sekunden)</string>
+    <string name="title_autostart_delay_preference">Autostart-Verzögerung</string>
+    <string name="nav_repository">Repositorium</string>
+    <string name="title_nettrack_preference">Netzwerkänderungen verfolgen</string>
+    <string name="title_stealth_preference">Tarnkappenmodus</string>
+    <string name="dialog_title_server_url_preference">Server-URL</string>
+    <string name="title_server_url_preference">Server-URL</string>
 </resources>
