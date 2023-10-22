@@ -32,8 +32,8 @@
     <string name="toast_export_profile_error">Error al exportar perfil!</string>
     <string name="confirm_profile_discard_title">Perfil borrado</string>
     <string name="confirm_profile_discard_message">Borrar el perfil seleccionado?</string>
-    <string name="new_mount_title">Punto de montaje</string>
-    <string name="edit_mount_title">Punto de montaje</string>
+    <string name="new_mount_title">Crear un nuevo punto de montaje</string>
+    <string name="edit_mount_title">Editar un punto de montaje</string>
     <string name="confirm_mount_discard_title">Borrar punto</string>
     <string name="confirm_mount_discard_message">Borrar los puntos de montaje de la lista?</string>
     <string name="app_preferences">Aplicación</string>
@@ -49,8 +49,8 @@
     <string name="dialog_title_maxlines_preference">Tamaño desplazamiento</string>
     <string name="title_theme_preference">Tema</string>
     <string name="dialog_title_theme_preference">Elegir Tema</string>
-    <string name="title_timestamp_preference">Timestamp</string>
-    <string name="summary_timestamp_preference">Show timestamp</string>
+    <string name="title_timestamp_preference">Marca de tiempo</string>
+    <string name="summary_timestamp_preference">Mostrar la marca de tiempo</string>
     <string name="title_appicon_preference">Mostrar icono</string>
     <string name="summary_appicon_preference">Mostrar icono en barra de notificación</string>
     <string name="title_autostart_preference">AutoArranque</string>
@@ -63,7 +63,7 @@
     <string name="summary_removeenv_preference">Borrar el sistema operativo</string>
     <string name="message_removeenv_confirm_dialog">¿Borrar el sistema operativo?</string>
     <string name="debug_preferences">Debug</string>
-    <string name="title_logger_preference">Logging</string>
+    <string name="title_logger_preference">Inicio sesión</string>
     <string name="summary_logger_preference">Guardar logs a un archivo</string>
     <string name="title_logfile_preference">Archivo log</string>
     <string name="dialog_title_logfile_preference">Archivo log</string>
@@ -79,7 +79,21 @@
     <string name="ssh_preferences">SSH</string>
     <string name="vnc_preferences">VNC</string>
     <string name="fb_preferences">Framebuffer</string>
-    <string name="help_text">\n<b>Help</b><![CDATA[\n\nThis application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nProcedure:\n1. Get superuser privileges (root).\n2. Check the connection to Internet.\n3. Specify the installation options.\n4. Start the installation (\"Menu => Install\").\n5. Wait until the installation is complete.\n6. Tap \"START\" button to run the container.\n7. Connect to the container through CLI, SSH, VNC, or others.\n\nFor more information, see \"About\".]]></string>
+    <string name="help_text">
+\n<b>Ayuda</b>
+\n
+\nEsta aplicación instala la distribución GNU/Linux seleccionada y la ejecuta en un chroot-container.
+\n
+\nProcedimiento:
+\n1. Obtener privilegios de superusuario (root).
+\n2. Comprueba la conexión a Internet.
+\n3. Especifique las opciones de instalación.
+\n4. Iniciar la instalación (\"Menú =&gt; Instalar\").
+\n5. Espere a que finalice la instalación.
+\n6. Pulse el botón \"START\" para ejecutar el contenedor.
+\n7. Conéctese al contenedor a través de CLI, SSH, VNC u otros.
+\n
+\nPara más información, consulte \"Acerca de\".</string>
     <string name="about_text">This application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nFor more information see <a href="https://github.com/meefik/linuxdeploy">project page</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> or <a href="https://meefik.github.io">developer site</a>.\n\n© 2012–2019 Anton Skshidlevsky, GPLv3</string>
     <string name="menu_configure">Configurar</string>
     <string name="menu_install">Instalar</string>
@@ -156,8 +170,8 @@
     <string name="dialog_title_vnc_dpi_preference">VNC: puntos por pulgada (DPI)</string>
     <string name="dialog_title_vnc_height_preference">VNC: altura pantalla</string>
     <string name="dialog_title_vnc_width_preference">VNC: anchura pantalla</string>
-    <string name="summary_fb_refresh_preference">Force refresh framebuffer</string>
-    <string name="title_fb_refresh_preference">Force refresh</string>
+    <string name="summary_fb_refresh_preference">Refrescar el framebuffer</string>
+    <string name="title_fb_refresh_preference">Forzar la actualización</string>
     <string name="title_env_dir_preference">Directorio ENV</string>
     <string name="menu_export">Exportar</string>
     <string name="nav_profiles">Perfiles</string>
@@ -190,4 +204,73 @@
     <string name="title_stealth_preference">Modo sigilo</string>
     <string name="repository_import_button">Importar</string>
     <string name="summary_wakelock_preference">Mantener la CPU en funcionamiento para trabajar mientras la pantalla está apagada</string>
+    <string name="summary_init_properties_preference">Cambiar la configuración del sistema de inicio</string>
+    <string name="title_init_properties_preference">Ajustes de inicio</string>
+    <string name="dialog_title_privileged_users_preference">Usuarios con privilegios</string>
+    <string name="mounts_preferences">MONTAJES</string>
+    <string name="dialog_title_pulse_host_preference">PulseAudio: host</string>
+    <string name="title_telnet_localhost_preference">Localhost</string>
+    <string name="pulse_preferences">PulseAudio</string>
+    <string name="service_notification_channel_name">Servicios</string>
+    <string name="init_preferences">Inicialización</string>
+    <string name="dialog_title_net_trigger_preference">Ruta al script de activación</string>
+    <string name="title_host_name_preference">Nombre del host</string>
+    <string name="title_http_conf_preference">Acceso restringido</string>
+    <string name="title_ssh_options_preference">Opciones SSH</string>
+    <string name="summary_telnet_localhost_preference">Permitir conexiones sólo desde el localhost</string>
+    <string name="title_powertrack_preference">Seguir los cambios de potencia</string>
+    <string name="title_path_preference">Variable RUTA</string>
+    <string name="title_http_port_preference">Puerto</string>
+    <string name="dialog_title_init_preference">Sistema inicialización</string>
+    <string name="title_power_trigger_preference">Disparador de potencia</string>
+    <string name="summary_nettrack_preference">Seguimiento de los cambios de la red y actualización del contenedor</string>
+    <string name="title_method_options_preference">Opciones de contenedorización</string>
+    <string name="dialog_title_ssh_options_preference">SSH: opciones sshd</string>
+    <string name="summary_pulse_properties_preference">Cambiar la configuración de la salida de audio</string>
+    <string name="title_is_mounts_preference">Activar</string>
+    <string name="summary_is_http_preference">Activar el servidor HTTP Apache</string>
+    <string name="title_is_http_preference">HTTP</string>
+    <string name="title_pulse_host_preference">Host</string>
+    <string name="dialog_title_x11_sdl_delay_preference">X11: retardo en segundos</string>
+    <string name="title_pulse_properties_preference">Ajustes del audio</string>
+    <string name="title_init_path_preference">Ruta de inicio</string>
+    <string name="summary_powertrack_preference">Seguimiento de los cambios de potencia y actualización del contenedor</string>
+    <string name="dialog_title_init_user_preference">Inicialización: usuario</string>
+    <string name="bootstrap_preferences">BOOTSTRAP</string>
+    <string name="title_init_level_preference">Nivel de inicialización</string>
+    <string name="title_init_async_preference">Asíncrono</string>
+    <string name="dialog_title_method_options_preference">Opciones de contenedorización</string>
+    <string name="title_wakelock_preference">CPU activa</string>
+    <string name="title_init_user_preference">Usuario inicial</string>
+    <string name="title_telnet_port_preference">Puerto</string>
+    <string name="title_pulse_port_preference">Puerto</string>
+    <string name="dialog_title_host_name_preference">Nombre del host</string>
+    <string name="title_is_gui_preference">Activar</string>
+    <string name="title_method_preference">Método de contenedorización</string>
+    <string name="dialog_title_method_preference">Método de contenedorización</string>
+    <string name="removing_env_message">Eliminando el entorno operativo…</string>
+    <string name="title_is_telnet_preference">TELNET</string>
+    <string name="dialog_title_telnet_port_preference">Puerto TELNET</string>
+    <string name="title_init_preference">Sistema inicialización</string>
+    <string name="title_net_trigger_preference">Activador de red</string>
+    <string name="dialog_title_init_level_preference">Inicialización: nivel</string>
+    <string name="title_privileged_users_preference">Usuarios con privilegios</string>
+    <string name="hint_mounts_target">Objetivo (opcional)</string>
+    <string name="title_is_init_preference">Activar</string>
+    <string name="dialog_title_http_port_preference">Puerto HTTP</string>
+    <string name="dialog_title_http_conf_preference">Acceso restringido</string>
+    <string name="service_notification_channel_description">Canal para mostrar las notificaciones del servicio</string>
+    <string name="updating_env_message">El entorno operativo se está actualizando…</string>
+    <string name="dialog_title_server_url_preference">Dirección URL del servidor</string>
+    <string name="dialog_title_pulse_port_preference">PulseAudio: puerto</string>
+    <string name="hint_mounts_source">Fuente</string>
+    <string name="title_server_url_preference">Dirección URL del servidor</string>
+    <string name="summary_is_pulse_preference">Permitir utilizar una salida de audio</string>
+    <string name="title_is_ssh_preference">Activar</string>
+    <string name="dialog_title_power_trigger_preference">Ruta al script de activación</string>
+    <string name="title_is_pulse_preference">Activar</string>
+    <string name="title_x11_sdl_delay_preference">Retraso en el inicio</string>
+    <string name="summary_init_async_preference">Ejecutar los procesos de forma asíncrona</string>
+    <string name="dialog_title_init_path_preference">inicialización: archivo o directorio</string>
+    <string name="summary_is_telnet_preference">Activar el telnetd daemon</string>
 </resources>
