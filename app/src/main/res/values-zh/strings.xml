@@ -293,7 +293,8 @@
 \n
 \n有关更多信息，请参阅：<a href="https://github.com/meefik/linuxdeploy"> Github </a>、<a href="http://4pda.ru/forum/index.php?showtopic=378043">论坛</a> 或 <a href="https://meefik.github.io">项目官方网站</a>。
 \n
-\n© 2012–2019 Anton Skshidlevsky, GPLv3 Translated by© 2023 Qiu qiu , GPLv3</string>
+\n© 2012–2019 Anton Skshidlevsky, GPLv3
+\n© 2023 Qiu qiu , GPLv3</string>
     <!--如果有人再次翻译本xml并不使用机械翻译的话，最好重新以英文xml开始翻译，因为英文xml的内容理论是最全的，并且这里的翻译可能有很多错误-->
     <string name="title_powertrack_preference">跟踪电源更改</string>
     <string name="summary_powertrack_preference">跟踪电源的更改并更新容器</string>
