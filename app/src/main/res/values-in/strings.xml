@@ -278,4 +278,26 @@
     <string name="title_powertrack_preference">Lacak perubahan daya</string>
     <string name="summary_powertrack_preference">Lacak perubahan daya dan perbarui kontainer</string>
     <string name="title_method_preference">Metode kontainerisasi</string>
+    <string name="dialog_title_pulse_host_preference">PulsaAudio: host</string>
+    <string name="pulse_preferences">PulseAudio</string>
+    <string name="service_notification_channel_name">Layanan</string>
+    <string name="dialog_title_net_trigger_preference">Lokasi ke trigger script</string>
+    <string name="title_host_name_preference">Nama host</string>
+    <string name="title_power_trigger_preference">Pemicu daya</string>
+    <string name="title_method_options_preference">Pilihan kontainerisasi</string>
+    <string name="summary_pulse_properties_preference">Ubah pengaturan output audio</string>
+    <string name="title_pulse_host_preference">Host</string>
+    <string name="title_pulse_properties_preference">Pengaturan audio</string>
+    <string name="dialog_title_method_options_preference">Pilihan kontainerisasi</string>
+    <string name="title_pulse_port_preference">Port</string>
+    <string name="dialog_title_host_name_preference">Nama host</string>
+    <string name="dialog_title_method_preference">Metode kontainerisasi</string>
+    <string name="title_net_trigger_preference">Pemicu jaringan</string>
+    <string name="hint_mounts_target">Target (opsional)</string>
+    <string name="service_notification_channel_description">Saluran untuk menampilkan pemberitahuan layanan</string>
+    <string name="dialog_title_pulse_port_preference">PulseAudio: port</string>
+    <string name="hint_mounts_source">Sumber</string>
+    <string name="summary_is_pulse_preference">Izinkan untuk menggunakan output audio</string>
+    <string name="dialog_title_power_trigger_preference">Lokasi ke trigger script</string>
+    <string name="title_is_pulse_preference">Aktif</string>
 </resources>
