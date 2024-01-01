@@ -1,8 +1,10 @@
 # Linux Deploy
 
 [![Android CI](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml/badge.svg)](https://github.com/lateautumn233/Linuxdeploy-Pro/actions/workflows/android.yml) ![Download](https://img.shields.io/github/downloads/lateautumn233/Linuxdeploy-Pro/total)
+[![Telegram](https://img.shields.io/badge/telegram-Linuxdeploy-252850?color=blue&logo=telegram)](https://t.me/+qptQOO1vI5ZlNDU1)
 
-Copyright (C) 2012-2019  Anton Skshidlevsky <br/>
+Copyright (C) 2012-2019  Anton 
+Skshidlevsky <br/>
 Copyright (C) 2020-2023  Lateautumn <br/>
 [GPLv3](https://github.com/lateautumn233/linuxdeploy-Pro/blob/master/LICENSE)
 
@@ -14,7 +16,7 @@ The program supports multi language interface. You can manage the process of ins
 
 Installing a new operating system takes about 15 minutes. The recommended minimum size of a disk image is 1024 MB (with LXDE), and without a GUI - 512 MB. When you install Linux on the flash card with the FAT32 file system, the image size should not exceed 4095 MB! After the initial setup the password for SSH and VNC generated automatically. The password can be changed through "Properties -> User password" or standard OS tools (passwd, vncpasswd).
 
-The app is available for download in Google Play and GitHub.
+The app is available for download in GitHub.
 
 <a href="https://github.com/lateautumn233/linuxdeploy-Pro/releases/latest"><img src="https://gist.githubusercontent.com/meefik/54a54afa7cc1dc600bdb855cb7895a4a/raw/ad617c006a1ac28d067c9a87cec60199ca8fef7c/get-apk-from-github.png" alt="Get it on Github"></a>
 
