@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_version">sürüm %1$s</string>
+    <string name="menu_start">BAŞLA</string>
+    <string name="nav_profiles">Prodosyalar</string>
+    <string name="nav_repository">Depo</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="nav_exit">Çık</string>
+    <string name="menu_install">Yükle</string>
+    <string name="menu_configure">Ayarla</string>
+    <string name="menu_export">Dışa Aktar</string>
+    <string name="menu_stop">DUR</string>
+    <string name="menu_properties">Özellikler</string>
+    <string name="nav_about">Hakkında</string>
+    <string name="menu_add">Yeni</string>
+    <string name="menu_edit">Düzenle</string>
+    <string name="menu_status">Durum</string>
+    <string name="menu_clear">Temizle</string>
+    <string name="menu_delete">Sil</string>
+</resources>
