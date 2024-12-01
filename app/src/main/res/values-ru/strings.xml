@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_version">версия %1$s</string>
     <string name="menu_start">СТАРТ</string>
     <string name="menu_stop">СТОП</string>
@@ -85,8 +85,8 @@
     <string name="ssh_preferences">SSH</string>
     <string name="vnc_preferences">VNC</string>
     <string name="fb_preferences">Framebuffer</string>
-    <string name="help_text">\n<b>Справка</b>\n\nПриложение устанавливает выбранный GNU/Linux дистрибутив и запускает его в chroot-контейнере.\n\nПорядок действий:\n1. Получить права суперпользователя (root).\n2. Проверить подключение к интернету.\n3. Указать параметры установки.\n4. Запустить установку (\"Меню => Установить\").\n5. Дождаться окончания установки.\n6. Запустить контейнер кнопкой \"СТАРТ\".\n7. Подключиться к контейнеру через CLI, SSH, VNC или др.\n\nДополнительную информацию см. в разделе \"О программе\".</string>
-    <string name="about_text">Приложение устанавливает выбранный GNU/Linux дистрибутив и запускает его в chroot-контейнере.\n\nЗа дополнительной информацией обращайтесь на <a href="https://github.com/meefik/linuxdeploy">страницу проекта</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">форум</a> или <a href="https://meefik.github.io">сайт разработчика</a>.\n\n&#169; 2012&#8211;2019 Антон Скшидлевский, GPLv3</string>
+    <string name="help_text">\n<b>Справка</b>\n\nПриложение устанавливает выбранный GNU/Linux дистрибутив и запускает его в chroot-контейнере.\n\nПорядок действий:\n1. Получить права суперпользователя (root).\n2. Проверить подключение к интернету.\n3. Указать параметры установки.\n4. Запустить установку (\"Меню =&gt; Установить\").\n5. Дождаться окончания установки.\n6. Запустить контейнер кнопкой \"СТАРТ\".\n7. Подключиться к контейнеру через CLI, SSH, VNC или др.\n\nДополнительную информацию см. в разделе \"О программе\".</string>
+    <string name="about_text">Приложение устанавливает выбранный GNU/Linux дистрибутив и запускает его в chroot-контейнере.\n\nЗа дополнительной информацией обращайтесь на <a href="https://github.com/meefik/linuxdeploy">страницу проекта</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">форум</a> или <a href="https://meefik.github.io">сайт разработчика</a>.\n\n© 2012–2019 Антон Скшидлевский, GPLv3</string>
     <string name="summary_debug_mode_preference">Включить отображение отладочной информации</string>
     <string name="summary_disk_size_preference">Вычисляется автоматически</string>
     <string name="summary_fb_refresh_preference">Принудительно обновлять фреймбуфер</string>
@@ -220,13 +220,13 @@
     <string name="menu_change_url">Изменить URL</string>
     <string name="summary_wakelock_preference">Предотвращать торможение процессора при отключении экрана</string>
     <string name="title_wakelock_preference">Блокировка сна</string>
-    <string name="loading_message">Загрузка данных...</string>
+    <string name="loading_message">Загрузка данных…</string>
     <string name="toast_loading_error">Ошибка при загрузке данных!</string>
     <string name="summary_stealth_preference">Скрыть иконку приложения из лаунчера</string>
     <string name="title_stealth_preference">Скрытный режим</string>
-    <string name="removing_env_message">Удаление рабочего окружения...</string>
+    <string name="removing_env_message">Удаление операционной среды…</string>
     <string name="toast_updating_env_error">Ошибка при обновлении рабочего окружения!</string>
-    <string name="updating_env_message">Обновление рабочего окружения...</string>
+    <string name="updating_env_message">Обновление операционной системы…</string>
     <string name="repository_purchase_button">Купить</string>
     <string name="write_permissions_disallow">Приложению была запрещена запись в память устройства</string>
     <string name="menu_more">Меню</string>
@@ -247,5 +247,14 @@
     <string name="title_power_trigger_preference">Триггер питания</string>
     <string name="summary_powertrack_preference">Отслеживать изменения питания и обновлять контейнер</string>
     <string name="title_powertrack_preference">Отслеживать изменения питания</string>
-
+    <string name="navigation_drawer_open">Откройте навигационный ящик</string>
+    <string name="navigation_drawer_close">Закройте навигационный ящик</string>
+    <string name="title_method_preference">Метод контейнеризации</string>
+    <string name="dialog_title_method_preference">Метод контейнеризации</string>
+    <string name="title_method_options_preference">Параметры контейнеризации</string>
+    <string name="dialog_title_method_options_preference">Параметры контейнеризации</string>
+    <string name="service_notification_channel_name">Сервисы</string>
+    <string name="title_host_name_preference">Название хоста</string>
+    <string name="dialog_title_host_name_preference">Название хоста</string>
+    <string name="service_notification_channel_description">Канал для отображения уведомлений о сервисе</string>
 </resources>
