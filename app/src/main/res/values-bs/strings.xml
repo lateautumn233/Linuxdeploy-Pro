@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_version">verzija %1$s</string>
+    <string name="menu_start">POČETAK</string>
+    <string name="menu_stop">STOP</string>
+    <string name="menu_properties">Svojstva</string>
+    <string name="nav_profiles">Profili</string>
+    <string name="nav_repository">Repozitorij</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_settings">Postavke</string>
+    <string name="nav_about">O nama</string>
+    <string name="nav_exit">Izlaz</string>
+    <string name="navigation_drawer_open">Otvori navigacijsku ladicu</string>
+    <string name="navigation_drawer_close">Zatvori navigacijsku ladicu</string>
+    <string name="menu_install">Instaliraj</string>
+    <string name="menu_configure">Konfiguriraj</string>
+    <string name="menu_export">Izvoz</string>
 </resources>
